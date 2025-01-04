@@ -14,7 +14,7 @@ def get_chrome_browser_options():
     return options
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture(scope="class")
 def browser():
     new_browser = uc.Chrome(use_subprocess=True, options=get_chrome_browser_options())
     yield new_browser
