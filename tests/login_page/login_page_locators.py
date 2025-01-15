@@ -9,3 +9,5 @@ class LoginPageLocators:
     APPLE_SIGNIN_BTN = (By.ID, "signin_appl_btn")
     CREATE_ACCOUNT_BTN = (By.ID, "create-account-link")
     STAY_LOGIN_CHECKBOX = (By.XPATH, "//input[@id='kmsi-checkbox']")
+    OPEN_SIGNIN_BTN = (By.XPATH, "//a[normalize-space()='Sign in']")
+    ERROR_MSG = (By.ID, "signin-error-msg")
