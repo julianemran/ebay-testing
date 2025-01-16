@@ -40,7 +40,6 @@ def browser():
     # Start a virtual display
     if sys.platform == "linux":
         version_main = get_chrome_version()
-        print("My Chrome Version", version_main)
         display = Display(visible=0, size=(1920, 1080))
         display.start()
 

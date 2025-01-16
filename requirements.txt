@@ -3,3 +3,4 @@ selenium==4.27.1
 undetected-chromedriver==3.5.5
 setuptools==75.8.0
 pyvirtualdisplay==3.0
+allure-pytest==2.13.5
