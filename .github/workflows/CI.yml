@@ -41,7 +41,7 @@ jobs:
         run: pytest tests/ --alluredir=allure-results
 
       - name: Upload current allure-results as artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: allure-results
           path: allure-results
@@ -50,7 +50,7 @@ jobs:
         run: allure generate allure-results --clean -o allure-report
 
       - name: Upload Allure report as artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: allure-report
           path: allure-report
