@@ -11,3 +11,6 @@ class LoginPageLocators:
     STAY_LOGIN_CHECKBOX = (By.XPATH, "//input[@id='kmsi-checkbox']")
     OPEN_SIGNIN_BTN = (By.XPATH, "//a[normalize-space()='Sign in']")
     ERROR_MSG = (By.ID, "signin-error-msg")
+    PASS_INPUT = (By.XPATH, "//input[@id='pass']")
+    SIGNIN_BTN_PASS_PAGE = (By.ID, "sgnBt")
+    PASSKEY_TITLE = (By.ID, "passkeys-title")
