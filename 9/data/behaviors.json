@@ -1,0 +1,200 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "test_validate_elements_login_page[locator0]",
+    "uid" : "bb4b9e40d49d4fdf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1737197828937,
+      "stop" : 1737197829362,
+      "duration" : 425
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('id', 'signin_appl_btn')" ]
+  }, {
+    "name" : "test_validate_elements_login_page[locator1]",
+    "uid" : "f40cdf85d6bac62e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1737197829655,
+      "stop" : 1737197829713,
+      "duration" : 58
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('id', 'create-account-link')" ]
+  }, {
+    "name" : "test_validate_elements_login_page[locator2]",
+    "uid" : "2be080bfbf1f03f0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1737197829761,
+      "stop" : 1737197836312,
+      "duration" : 6551
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('id', 'signin-error-msg')" ]
+  }, {
+    "name" : "test_validate_elements_login_page[locator3]",
+    "uid" : "cc201f446c886a42",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1737197836355,
+      "stop" : 1737197836364,
+      "duration" : 9
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('id', 'signin_fb_btn')" ]
+  }, {
+    "name" : "test_validate_elements_login_page[locator4]",
+    "uid" : "2a38d941b7889b31",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1737197836369,
+      "stop" : 1737197836377,
+      "duration" : 8
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('id', 'signin_ggl_btn')" ]
+  }, {
+    "name" : "test_validate_elements_login_page[locator5]",
+    "uid" : "ec701cc8f1c5f62d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1737197836382,
+      "stop" : 1737197842974,
+      "duration" : 6592
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//a[normalize-space()='Sign in']\")" ]
+  }, {
+    "name" : "test_validate_elements_login_page[locator6]",
+    "uid" : "2dcb9b9ab4c46cf5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1737197842981,
+      "stop" : 1737197849563,
+      "duration" : 6582
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('id', 'passkeys-title')" ]
+  }, {
+    "name" : "test_validate_elements_login_page[locator7]",
+    "uid" : "64cec09fb56b4297",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1737197849570,
+      "stop" : 1737197849579,
+      "duration" : 9
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//input[@id='pass']\")" ]
+  }, {
+    "name" : "test_validate_elements_login_page[locator8]",
+    "uid" : "daa90f65d3d44c90",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1737197849584,
+      "stop" : 1737197849592,
+      "duration" : 8
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('css selector', \"[data-testid='signin-continue-btn']\")" ]
+  }, {
+    "name" : "test_validate_elements_login_page[locator9]",
+    "uid" : "9db23d86ffda98c1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1737197849597,
+      "stop" : 1737197849606,
+      "duration" : 9
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('id', 'sgnBt')" ]
+  }, {
+    "name" : "test_validate_elements_login_page[locator10]",
+    "uid" : "d4336a8f00223706",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1737197849611,
+      "stop" : 1737197849619,
+      "duration" : 8
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//input[@id='kmsi-checkbox']\")" ]
+  }, {
+    "name" : "test_validate_elements_login_page[locator11]",
+    "uid" : "d03d9cfd9bc705d2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1737197849624,
+      "stop" : 1737197849629,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('css selector', \"[data-testid='userid']\")" ]
+  }, {
+    "name" : "test_login_invalid_email[not-email]",
+    "uid" : "8dc91bfb62328951",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1737197849634,
+      "stop" : 1737197850469,
+      "duration" : 835
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'not-email'" ]
+  }, {
+    "name" : "test_login_invalid_email[fake@emailcom]",
+    "uid" : "7137cfafe3b7a21f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1737197850475,
+      "stop" : 1737197850960,
+      "duration" : 485
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'fake@emailcom'" ]
+  }, {
+    "name" : "test_login_full_flow",
+    "uid" : "7d1bbcb75d653c14",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1737197850965,
+      "stop" : 1737197874644,
+      "duration" : 23679
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

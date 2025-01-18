@@ -1,0 +1,151 @@
+[ {
+  "uid" : "7d1bbcb75d653c14",
+  "name" : "test_login_full_flow",
+  "time" : {
+    "start" : 1737197850965,
+    "stop" : 1737197874644,
+    "duration" : 23679
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9db23d86ffda98c1",
+  "name" : "test_validate_elements_login_page[locator9]",
+  "time" : {
+    "start" : 1737197849597,
+    "stop" : 1737197849606,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "daa90f65d3d44c90",
+  "name" : "test_validate_elements_login_page[locator8]",
+  "time" : {
+    "start" : 1737197849584,
+    "stop" : 1737197849592,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8dc91bfb62328951",
+  "name" : "test_login_invalid_email[not-email]",
+  "time" : {
+    "start" : 1737197849634,
+    "stop" : 1737197850469,
+    "duration" : 835
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb4b9e40d49d4fdf",
+  "name" : "test_validate_elements_login_page[locator0]",
+  "time" : {
+    "start" : 1737197828937,
+    "stop" : 1737197829362,
+    "duration" : 425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f40cdf85d6bac62e",
+  "name" : "test_validate_elements_login_page[locator1]",
+  "time" : {
+    "start" : 1737197829655,
+    "stop" : 1737197829713,
+    "duration" : 58
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc201f446c886a42",
+  "name" : "test_validate_elements_login_page[locator3]",
+  "time" : {
+    "start" : 1737197836355,
+    "stop" : 1737197836364,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4336a8f00223706",
+  "name" : "test_validate_elements_login_page[locator10]",
+  "time" : {
+    "start" : 1737197849611,
+    "stop" : 1737197849619,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64cec09fb56b4297",
+  "name" : "test_validate_elements_login_page[locator7]",
+  "time" : {
+    "start" : 1737197849570,
+    "stop" : 1737197849579,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d03d9cfd9bc705d2",
+  "name" : "test_validate_elements_login_page[locator11]",
+  "time" : {
+    "start" : 1737197849624,
+    "stop" : 1737197849629,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7137cfafe3b7a21f",
+  "name" : "test_login_invalid_email[fake@emailcom]",
+  "time" : {
+    "start" : 1737197850475,
+    "stop" : 1737197850960,
+    "duration" : 485
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec701cc8f1c5f62d",
+  "name" : "test_validate_elements_login_page[locator5]",
+  "time" : {
+    "start" : 1737197836382,
+    "stop" : 1737197842974,
+    "duration" : 6592
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2dcb9b9ab4c46cf5",
+  "name" : "test_validate_elements_login_page[locator6]",
+  "time" : {
+    "start" : 1737197842981,
+    "stop" : 1737197849563,
+    "duration" : 6582
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a38d941b7889b31",
+  "name" : "test_validate_elements_login_page[locator4]",
+  "time" : {
+    "start" : 1737197836369,
+    "stop" : 1737197836377,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2be080bfbf1f03f0",
+  "name" : "test_validate_elements_login_page[locator2]",
+  "time" : {
+    "start" : 1737197829761,
+    "stop" : 1737197836312,
+    "duration" : 6551
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

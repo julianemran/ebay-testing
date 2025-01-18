@@ -1,0 +1,306 @@
+{
+  "de53cb0d126c7730ca9bf3f40fb22bbc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ec701cc8f1c5f62d",
+      "reportUrl" : "https://julianemran.github.io/ebay-testing/9//#testresult/ec701cc8f1c5f62d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: //a[normalize-space()='Sign in'] is not found\nassert False\n +  where False = is_element_present(*('xpath', \"//a[normalize-space()='Sign in']\"), timeout=5)\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7fc2813b57f0>.is_element_present",
+      "time" : {
+        "start" : 1737197836382,
+        "stop" : 1737197842974,
+        "duration" : 6592
+      }
+    } ]
+  },
+  "3e9ed152ace18a5134b9a8ebc5493f96" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bb4b9e40d49d4fdf",
+      "reportUrl" : "https://julianemran.github.io/ebay-testing/9//#testresult/bb4b9e40d49d4fdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737197828937,
+        "stop" : 1737197829362,
+        "duration" : 425
+      }
+    } ]
+  },
+  "7286f61e9fb57855e242f2b6505cbd6c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2dcb9b9ab4c46cf5",
+      "reportUrl" : "https://julianemran.github.io/ebay-testing/9//#testresult/2dcb9b9ab4c46cf5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: passkeys-title is not found\nassert False\n +  where False = is_element_present(*('id', 'passkeys-title'), timeout=5)\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7fc2813737d0>.is_element_present",
+      "time" : {
+        "start" : 1737197842981,
+        "stop" : 1737197849563,
+        "duration" : 6582
+      }
+    } ]
+  },
+  "c20040eb447fc642f21e8b7aa2c29901" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "64cec09fb56b4297",
+      "reportUrl" : "https://julianemran.github.io/ebay-testing/9//#testresult/64cec09fb56b4297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737197849570,
+        "stop" : 1737197849579,
+        "duration" : 9
+      }
+    } ]
+  },
+  "7314dff7575643ea3b841ba7918c7169" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d03d9cfd9bc705d2",
+      "reportUrl" : "https://julianemran.github.io/ebay-testing/9//#testresult/d03d9cfd9bc705d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737197849624,
+        "stop" : 1737197849629,
+        "duration" : 5
+      }
+    } ]
+  },
+  "1676945468fffbeb73bc5cfb2bf2d182" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc201f446c886a42",
+      "reportUrl" : "https://julianemran.github.io/ebay-testing/9//#testresult/cc201f446c886a42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737197836355,
+        "stop" : 1737197836364,
+        "duration" : 9
+      }
+    } ]
+  },
+  "effe472580fc0aa1492d7e1eeabf3ca0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f40cdf85d6bac62e",
+      "reportUrl" : "https://julianemran.github.io/ebay-testing/9//#testresult/f40cdf85d6bac62e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737197829655,
+        "stop" : 1737197829713,
+        "duration" : 58
+      }
+    } ]
+  },
+  "ef9a26ffe135bf3f5390bf1a071cb6a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d4336a8f00223706",
+      "reportUrl" : "https://julianemran.github.io/ebay-testing/9//#testresult/d4336a8f00223706",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737197849611,
+        "stop" : 1737197849619,
+        "duration" : 8
+      }
+    } ]
+  },
+  "133f2e1306479d2eb55d45004c684ed8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8dc91bfb62328951",
+      "reportUrl" : "https://julianemran.github.io/ebay-testing/9//#testresult/8dc91bfb62328951",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737197849634,
+        "stop" : 1737197850469,
+        "duration" : 835
+      }
+    } ]
+  },
+  "fc984da8f5a65c8326a416c3b84802c7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2be080bfbf1f03f0",
+      "reportUrl" : "https://julianemran.github.io/ebay-testing/9//#testresult/2be080bfbf1f03f0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: signin-error-msg is not found\nassert False\n +  where False = is_element_present(*('id', 'signin-error-msg'), timeout=5)\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7fc281371700>.is_element_present",
+      "time" : {
+        "start" : 1737197829761,
+        "stop" : 1737197836312,
+        "duration" : 6551
+      }
+    } ]
+  },
+  "5e141a672d3399157c84bc02cd4e458c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7137cfafe3b7a21f",
+      "reportUrl" : "https://julianemran.github.io/ebay-testing/9//#testresult/7137cfafe3b7a21f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737197850475,
+        "stop" : 1737197850960,
+        "duration" : 485
+      }
+    } ]
+  },
+  "5bcd41d56b6310988ed3e4b8e540200f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2a38d941b7889b31",
+      "reportUrl" : "https://julianemran.github.io/ebay-testing/9//#testresult/2a38d941b7889b31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737197836369,
+        "stop" : 1737197836377,
+        "duration" : 8
+      }
+    } ]
+  },
+  "7d906427e5c2a837c05f43266ca16b6a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "daa90f65d3d44c90",
+      "reportUrl" : "https://julianemran.github.io/ebay-testing/9//#testresult/daa90f65d3d44c90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737197849584,
+        "stop" : 1737197849592,
+        "duration" : 8
+      }
+    } ]
+  },
+  "0b659d15f26186426f1c2f889d7aeec9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9db23d86ffda98c1",
+      "reportUrl" : "https://julianemran.github.io/ebay-testing/9//#testresult/9db23d86ffda98c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737197849597,
+        "stop" : 1737197849606,
+        "duration" : 9
+      }
+    } ]
+  },
+  "8849d382cdbcf966ec3b7a9e673820f3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7d1bbcb75d653c14",
+      "reportUrl" : "https://julianemran.github.io/ebay-testing/9//#testresult/7d1bbcb75d653c14",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: The Website should redirect the user to passkey title page\nassert False\n +  where False = is_element_present(*('id', 'passkeys-title'))\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7fc281371be0>.is_element_present\n +    and   ('id', 'passkeys-title') = LoginPageLocators.PASSKEY_TITLE",
+      "time" : {
+        "start" : 1737197850965,
+        "stop" : 1737197874644,
+        "duration" : 23679
+      }
+    } ]
+  }
+}
