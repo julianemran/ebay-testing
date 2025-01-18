@@ -1,0 +1,204 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests.login_page.test_login_page",
+    "children" : [ {
+      "name" : "test_validate_elements_login_page[locator0]",
+      "uid" : "b3e8cd501187ef5a",
+      "parentUid" : "347e8036f25e10085f3e4b52e53562b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737200459464,
+        "stop" : 1737200459528,
+        "duration" : 64
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "('id', 'signin_appl_btn')" ]
+    }, {
+      "name" : "test_validate_elements_login_page[locator1]",
+      "uid" : "25ad18692475abdf",
+      "parentUid" : "347e8036f25e10085f3e4b52e53562b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737200459553,
+        "stop" : 1737200459563,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "('id', 'create-account-link')" ]
+    }, {
+      "name" : "test_validate_elements_login_page[locator2]",
+      "uid" : "cc5b211a1cbde98f",
+      "parentUid" : "347e8036f25e10085f3e4b52e53562b2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1737200459569,
+        "stop" : 1737200466206,
+        "duration" : 6637
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "('id', 'signin-error-msg')" ]
+    }, {
+      "name" : "test_validate_elements_login_page[locator3]",
+      "uid" : "c4df66fbe33a6265",
+      "parentUid" : "347e8036f25e10085f3e4b52e53562b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737200466362,
+        "stop" : 1737200466370,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "('id', 'signin_fb_btn')" ]
+    }, {
+      "name" : "test_validate_elements_login_page[locator4]",
+      "uid" : "27618ac57a053e8d",
+      "parentUid" : "347e8036f25e10085f3e4b52e53562b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737200466376,
+        "stop" : 1737200466383,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "('id', 'signin_ggl_btn')" ]
+    }, {
+      "name" : "test_validate_elements_login_page[locator5]",
+      "uid" : "afeef2f1a18e14d2",
+      "parentUid" : "347e8036f25e10085f3e4b52e53562b2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1737200466389,
+        "stop" : 1737200472988,
+        "duration" : 6599
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "('xpath', \"//a[normalize-space()='Sign in']\")" ]
+    }, {
+      "name" : "test_validate_elements_login_page[locator6]",
+      "uid" : "32a02dbe9f214c37",
+      "parentUid" : "347e8036f25e10085f3e4b52e53562b2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1737200473091,
+        "stop" : 1737200479695,
+        "duration" : 6604
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "('id', 'passkeys-title')" ]
+    }, {
+      "name" : "test_validate_elements_login_page[locator7]",
+      "uid" : "efdb1165f2f665a2",
+      "parentUid" : "347e8036f25e10085f3e4b52e53562b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737200479807,
+        "stop" : 1737200479815,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "('xpath', \"//input[@id='pass']\")" ]
+    }, {
+      "name" : "test_validate_elements_login_page[locator8]",
+      "uid" : "583bec8e1e618a58",
+      "parentUid" : "347e8036f25e10085f3e4b52e53562b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737200479821,
+        "stop" : 1737200479828,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "('css selector', \"[data-testid='signin-continue-btn']\")" ]
+    }, {
+      "name" : "test_validate_elements_login_page[locator9]",
+      "uid" : "302833bc891c4401",
+      "parentUid" : "347e8036f25e10085f3e4b52e53562b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737200479834,
+        "stop" : 1737200479841,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "('id', 'sgnBt')" ]
+    }, {
+      "name" : "test_validate_elements_login_page[locator10]",
+      "uid" : "69258b2ebee58bc8",
+      "parentUid" : "347e8036f25e10085f3e4b52e53562b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737200479847,
+        "stop" : 1737200479854,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "('xpath', \"//input[@id='kmsi-checkbox']\")" ]
+    }, {
+      "name" : "test_validate_elements_login_page[locator11]",
+      "uid" : "aa8e666bfb4ec68f",
+      "parentUid" : "347e8036f25e10085f3e4b52e53562b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737200479860,
+        "stop" : 1737200479865,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "('css selector', \"[data-testid='userid']\")" ]
+    }, {
+      "name" : "test_login_invalid_email[not-email]",
+      "uid" : "6b1584081af1ce26",
+      "parentUid" : "347e8036f25e10085f3e4b52e53562b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737200479870,
+        "stop" : 1737200480711,
+        "duration" : 841
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'not-email'" ]
+    }, {
+      "name" : "test_login_invalid_email[fake@emailcom]",
+      "uid" : "8ea629d621225edf",
+      "parentUid" : "347e8036f25e10085f3e4b52e53562b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1737200480717,
+        "stop" : 1737200481159,
+        "duration" : 442
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'fake@emailcom'" ]
+    }, {
+      "name" : "test_login_full_flow",
+      "uid" : "cd033972497840f8",
+      "parentUid" : "347e8036f25e10085f3e4b52e53562b2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1737200481165,
+        "stop" : 1737200504738,
+        "duration" : 23573
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.login_page.test_login_page"
+  } ],
+  "name" : "packages"
+}
