@@ -22,7 +22,6 @@ class TestLoginPage:
         assert page.is_element_present(*LoginPageLocators.ERROR_MSG), f'Error text not found'
 
     def test_login_full_flow(self, page):
-        #viveyak930@fanicle.com
         page.fill(*LoginPageLocators.USERNAME_INPUT, filler=os.getenv("EBAY_EMAIL"), clean=True)
         page.press_the_button(*LoginPageLocators.SIGNIN_BTN)
         page.fill(*LoginPageLocators.PASS_INPUT, filler=os.getenv("EBAY_PASS"), clean=True)
