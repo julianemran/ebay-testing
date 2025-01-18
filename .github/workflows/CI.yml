@@ -34,6 +34,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Get Allure history
+        uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+          path: gh-pages
+
       - name: Run tests
         env:
           EBAY_EMAIL: ${{ secrets.EBAY_EMAIL }}
