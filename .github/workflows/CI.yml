@@ -42,7 +42,7 @@ jobs:
 
       - name: Generate Allure report
         if: always()
-        uses: simple-elf/allure-report-action@v2
+        uses: simple-elf/allure-report-action@v1.5
         with:
           allure_results_dir: allure-results
           allure_report_dir: allure-report
