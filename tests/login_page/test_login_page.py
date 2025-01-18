@@ -1,10 +1,11 @@
 import os
 import pytest
+from tests.frontend_report import FrontendReport
 from src.pages.login_page import LoginPage
 from tests.login_page.login_page_locators import LoginPageLocators
 
 
-class TestLoginPage:
+class TestLoginPage(FrontendReport):
     @pytest.fixture(scope="function")
     def page(self, browser):
         page = LoginPage(browser)
