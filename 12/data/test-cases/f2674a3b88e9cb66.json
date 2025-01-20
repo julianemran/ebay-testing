@@ -1,0 +1,183 @@
+{
+  "uid" : "f2674a3b88e9cb66",
+  "name" : "test_validate_elements_login_page[locator0]",
+  "fullName" : "tests.login_page.test_login_page.TestLoginPage#test_validate_elements_login_page",
+  "historyId" : "3e9ed152ace18a5134b9a8ebc5493f96",
+  "time" : {
+    "start" : 1737400574496,
+    "stop" : 1737400574791,
+    "duration" : 295
+  },
+  "description" : "This test validates the presence of elements on the login page.",
+  "descriptionHtml" : "<p>This test validates the presence of elements on the login page.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1737400554306,
+      "stop" : 1737400568521,
+      "duration" : 14215
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "page",
+    "time" : {
+      "start" : 1737400568522,
+      "stop" : 1737400574495,
+      "duration" : 5973
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log_report",
+    "time" : {
+      "start" : 1737400574495,
+      "stop" : 1737400574495,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1737400554306,
+      "stop" : 1737400554306,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1737400620688,
+      "stop" : 1737400620821,
+      "duration" : 133
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log_report::0",
+    "time" : {
+      "start" : 1737400574792,
+      "stop" : 1737400574800,
+      "duration" : 8
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.login_page"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az2020-331"
+  }, {
+    "name" : "thread",
+    "value" : "2644-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.login_page.test_login_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "locator",
+    "value" : "('id', 'signin_appl_btn')"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "923eed6303fde45f",
+        "reportUrl" : "https://julianemran.github.io/ebay-testing/11//#testresult/923eed6303fde45f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737201882157,
+          "stop" : 1737201882227,
+          "duration" : 70
+        }
+      }, {
+        "uid" : "b3e8cd501187ef5a",
+        "reportUrl" : "https://julianemran.github.io/ebay-testing/10//#testresult/b3e8cd501187ef5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737200459464,
+          "stop" : 1737200459528,
+          "duration" : 64
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f2674a3b88e9cb66.json",
+  "parameterValues" : [ "('id', 'signin_appl_btn')" ]
+}

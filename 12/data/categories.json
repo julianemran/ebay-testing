@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: signin-error-msg is not found\nassert False\n +  where False = is_element_present(*('id', 'signin-error-msg'), timeout=5)\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7fcb03285940>.is_element_present",
+      "children" : [ {
+        "name" : "test_validate_elements_login_page[locator2]",
+        "uid" : "94a9d8ae250479d3",
+        "parentUid" : "2692658f7a5d33f4dcb7b6ac27a760f9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1737400574948,
+          "stop" : 1737400581500,
+          "duration" : 6552
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('id', 'signin-error-msg')" ]
+      } ],
+      "uid" : "2692658f7a5d33f4dcb7b6ac27a760f9"
+    }, {
+      "name" : "AssertionError: //a[normalize-space()='Sign in'] is not found\nassert False\n +  where False = is_element_present(*('xpath', \"//a[normalize-space()='Sign in']\"), timeout=5)\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7fcb03287800>.is_element_present",
+      "children" : [ {
+        "name" : "test_validate_elements_login_page[locator5]",
+        "uid" : "1a75843e0d633478",
+        "parentUid" : "9b4d64f99ba16a56981c7b8ecfe40c21",
+        "status" : "failed",
+        "time" : {
+          "start" : 1737400581693,
+          "stop" : 1737400588291,
+          "duration" : 6598
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//a[normalize-space()='Sign in']\")" ]
+      } ],
+      "uid" : "9b4d64f99ba16a56981c7b8ecfe40c21"
+    }, {
+      "name" : "AssertionError: passkeys-title is not found\nassert False\n +  where False = is_element_present(*('id', 'passkeys-title'), timeout=5)\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7fcb03286cc0>.is_element_present",
+      "children" : [ {
+        "name" : "test_validate_elements_login_page[locator6]",
+        "uid" : "de6dcb6f2abe6b68",
+        "parentUid" : "c1a0a4111f6512167dfdb1fba32fc349",
+        "status" : "failed",
+        "time" : {
+          "start" : 1737400588395,
+          "stop" : 1737400594983,
+          "duration" : 6588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('id', 'passkeys-title')" ]
+      } ],
+      "uid" : "c1a0a4111f6512167dfdb1fba32fc349"
+    }, {
+      "name" : "AssertionError: The Website should redirect the user to passkey title page\nassert False\n +  where False = is_element_present(*('id', 'passkeys-title'))\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7fcb03288290>.is_element_present\n +    and   ('id', 'passkeys-title') = LoginPageLocators.PASSKEY_TITLE",
+      "children" : [ {
+        "name" : "test_login_full_flow",
+        "uid" : "b007026e21964575",
+        "parentUid" : "d69ad3bb504813ab6b2749211e470215",
+        "status" : "failed",
+        "time" : {
+          "start" : 1737400596595,
+          "stop" : 1737400620576,
+          "duration" : 23981
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d69ad3bb504813ab6b2749211e470215"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
