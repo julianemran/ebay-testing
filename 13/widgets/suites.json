@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "9112bdb9f0ebf206c7badc8586edb567",
+    "name" : "tests.login_page",
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 15
+    }
+  }, {
+    "uid" : "feeeb6df9b6d84a21dfa18855ad9ab30",
+    "name" : "tests.signup_page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 14
+    }
+  } ]
+}
