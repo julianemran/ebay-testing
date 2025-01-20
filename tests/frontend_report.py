@@ -3,8 +3,8 @@ import pytest
 import allure
 import conftest
 
-class FrontendReport:
 
+class FrontendReport:
 
     @pytest.fixture(scope="function", autouse=True)
     def log_report(self, page, request, pytestconfig):

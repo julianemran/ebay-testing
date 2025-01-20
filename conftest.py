@@ -1,7 +1,9 @@
 import re
 import os
 import sys
+import random
 import pytest
+import string
 import subprocess
 from pyvirtualdisplay import Display
 import undetected_chromedriver as uc
@@ -9,15 +11,18 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import NoSuchWindowException
 
 
+chrome_cmd = {"darwin": "Google Chrome", "linux": "google-chrome"}
+
+
 def get_chrome_version():
     try:
-        result = subprocess.run(['google-chrome', '--version'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        result = subprocess.run([chrome_cmd[sys.platform], '--version'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
         if result.returncode == 0:
             version_output = result.stdout.strip()
             match = re.search(r'(\d+)\.', version_output)
             if match:
                 return int(match.group(1))  # Return as an integer
-        return  None
+        return None
     except:
         return None
 
@@ -39,10 +44,10 @@ def get_chrome_browser_options():
 
 @pytest.fixture(scope="class")
 def browser():
-    version_main = None
+    version_main = get_chrome_version()
+    display = None
     # Start a virtual display
     if sys.platform == "linux":
-        version_main = get_chrome_version()
         display = Display(visible=0, size=(1920, 1080))
         display.start()
 
@@ -62,6 +67,7 @@ def is_browser_open(browser):
     except NoSuchWindowException:
         return False
     return True
+
 
 def get_console_logs(browser, request):
     logs = browser.get_log("browser")
@@ -83,3 +89,8 @@ def get_console_logs(browser, request):
             f.write(logs_text)
         return file_path
     return None
+
+
+def generate_random_text(length):
+    letters = string.ascii_lowercase
+    return ''.join(random.choice(letters) for i in range(length))
