@@ -13,3 +13,5 @@ class SignupPageLocators:
     SIGNUP_WITH_FACEBOOK = (By.ID, "facebook")
     SIGNUP_WITH_APPLE = (By.ID, "apple")
     SIGNIN_BTN = (By.XPATH, "//a[normalize-space()='Sign in']")
+    PHONE_NUMBER_INPUT = (By.ID, "phoneCountry")
+

@@ -1,5 +1,7 @@
 import sys
+import random
 from time import sleep
+from selenium.webdriver.common.by import By
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
@@ -61,7 +63,7 @@ class BasePage:
         if element_appeared is not None:
             assert self.is_element_present(*element_appeared, timeout=timeout), f'{element_appeared} did not appear'
 
-    def fill(self, how, what, filler, clean=False, write_speed=None):
+    def fill(self, how, what, filler, clean=False):
         """how: type of selector
            what: what element to fill
            filler: what to type into the element's field
@@ -75,13 +77,15 @@ class BasePage:
                 raise Exception(f"{e}\nProblem with typing in {what}")
         if filler is not None:
             try:
-                if write_speed:
-                    for fill in filler:
-                        element.send_keys(fill)
-                        sleep(write_speed)
-                else:
-                    element.send_keys(filler)
+                for fill in filler:
+                    element.send_keys(fill)
+                    sleep(random.uniform(0.1, 0.4))
             except Exception as e:
                 raise Exception(f"{e}\nProblem with typing in {what}")
         return element.get_attribute('value')
 
+    def scroll_down(self, number_of_times):
+        self.browser.find_element(By.TAG_NAME, 'body').click()
+        for _ in range(number_of_times):
+            ActionChains(self.browser).send_keys(Keys.PAGE_DOWN).perform()
+            sleep(0.7)

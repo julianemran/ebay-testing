@@ -47,3 +47,18 @@ class TestSignupPage(FrontendReport):
         page.press_the_button(*SignupPageLocators.CREATE_ACCOUNT_BTN)
         assert page.is_element_present(By.XPATH, f"//*[contains(text(), '{error_msg}')]"), \
             f"Error msg with text=[{error_msg}] not found"
+
+    @allure.severity(allure.severity_level.MINOR)
+    @pytest.mark.parametrize('attrs', [
+        {
+             "first_name": conftest.generate_random_text(6),
+             "last_name": conftest.generate_random_text(6),
+             "email": f"{conftest.generate_random_text(7)}124@gmail.com",
+             "password": "#EbayTesting12"
+        }
+    ])
+    def test_signup(self, page, attrs):
+        allure.dynamic.description(f"This test attempts to signup with valid attributes.")
+        page.fill_signup_page(attributes=attrs)
+        page.press_the_button(*SignupPageLocators.CREATE_ACCOUNT_BTN)
+        assert page.is_element_present(*SignupPageLocators.PHONE_NUMBER_INPUT), "Should redirect to Add phone number page"
