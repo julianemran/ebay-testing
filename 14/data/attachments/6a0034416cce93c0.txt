@@ -1,0 +1,38 @@
+https://adf0901f1861.cdn4.forter.com/sn/adf0901f1861/sha256-rQp%2FbOxLjzx6LviJC1%2FSzLTmXV9afI15pXP1U60%2FgGM%3D/script.js 0 Failed to parse video contentType: video/mp4; codecs=hev1.1.6.L120.90 
+ ------------
+https://signup.ebay.com/pa/crte?ru= - Access to XMLHttpRequest at 'https://sr-client-cfg.amplitude.com/config?api_key=f93443b04ccea262b9a9db150b066115&config_keys=sessionReplay' from origin 'https://signup.ebay.com' has been blocked by CORS policy: Request header field x-ebay-requested-with is not allowed by Access-Control-Allow-Headers in preflight response. 
+ ------------
+https://sr-client-cfg.amplitude.com/config?api_key=f93443b04ccea262b9a9db150b066115&config_keys=sessionReplay - Failed to load resource: net::ERR_FAILED 
+ ------------
+console-api 0:22 "undetected chromedriver 1337!" 
+ ------------
+console-api 0:22 "undetected chromedriver 1337!" 
+ ------------
+https://signup.ebay.com/pa/crte?ru= 4:8 "done" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 20:10 "ebay tealium test 1" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 24:10 "ebay tealium test 2" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 26:10 "ebay tealium test 3" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 4:20 "madrona data:" "{\"madrona_placement_id\"  : \"100578\",\"site_id\":\"0\",\"guid\":\"8945b82c1940ac1d8558481effff3974\",\"page_id\"  : \"\",\"operational_id\"  : \"2556586\",\"location_country_id\":\"1\",\"uep\":\"test\",\"fm_segmentation\":\"-1\"}" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 12:17 "ebay tealium testvar utag_data = {\"madrona_placement_id\"  : \"100578\",\"site_id\":\"0\",\"guid\":\"8945b82c1940ac1d8558481effff3974\",\"page_id\"  : \"\",\"operational_id\"  : \"2556586\",\"location_country_id\":\"1\",\"uep\":\"test\",\"fm_segmentation\":\"-1\"};" 
+ ------------
+console-api 0:22 "undetected chromedriver 1337!" 
+ ------------
+https://signup.ebay.com/pa/crte?ru= - [GroupMarkerNotSet(crbug.com/242999)!:A05042025C110000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content. 
+ ------------
+https://signup.ebay.com/pa/crte?ru= - [GroupMarkerNotSet(crbug.com/242999)!:A02042025C110000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content. 
+ ------------
+https://signup.ebay.com/pa/crte?ru= - [GroupMarkerNotSet(crbug.com/242999)!:A0C0FE075C110000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content. 
+ ------------
+https://signup.ebay.com/pa/crte?ru= - [.WebGL-0x24f403590600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels 
+ ------------
+https://signup.ebay.com/pa/crte?ru= - [GroupMarkerNotSet(crbug.com/242999)!:A0F0FE075C110000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content. 
+ ------------
+https://signup.ebay.com/pa/crte?ru= - [.WebGL-0x24f403590d00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat) 
+ ------------
+https://signup.ebay.com/pa/crte?ru= - [GroupMarkerNotSet(crbug.com/242999)!:A020FF075C110000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content. 
+ ------------
