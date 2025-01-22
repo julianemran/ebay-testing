@@ -1,0 +1,341 @@
+[ {
+  "uid" : "e7cef543003b3e26",
+  "name" : "test_validate_elements_login_page[locator2]",
+  "time" : {
+    "start" : 1737554854387,
+    "stop" : 1737554860995,
+    "duration" : 6608
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf75dc2b8c0fa9af",
+  "name" : "test_validate_elements_login_page[locator8]",
+  "time" : {
+    "start" : 1737554982751,
+    "stop" : 1737554982761,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6081a1062d891f43",
+  "name" : "test_validate_elements_login_page[locator11]",
+  "time" : {
+    "start" : 1737554874706,
+    "stop" : 1737554874711,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "915f9a98eef95b15",
+  "name" : "test_buy_product_page",
+  "time" : {
+    "start" : 1737554946117,
+    "stop" : 1737554973307,
+    "duration" : 27190
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "dc9eedd9d3263627",
+  "name" : "test_search_product[iphone 16 case-element_to_present0]",
+  "time" : {
+    "start" : 1737554917241,
+    "stop" : 1737554927066,
+    "duration" : 9825
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "6d9ea86e1ad5e03a",
+  "name" : "test_validate_elements_login_page[locator4]",
+  "time" : {
+    "start" : 1737554975860,
+    "stop" : 1737554975869,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3158811eb7c4b5d",
+  "name" : "test_validate_elements_login_page[locator6]",
+  "time" : {
+    "start" : 1737554867913,
+    "stop" : 1737554874534,
+    "duration" : 6621
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5e0af98a15f4c17",
+  "name" : "test_validate_elements_login_page[locator9]",
+  "time" : {
+    "start" : 1737554874676,
+    "stop" : 1737554874684,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eea6056aefa93d70",
+  "name" : "test_validate_elements_login_page[locator4]",
+  "time" : {
+    "start" : 1737554861178,
+    "stop" : 1737554861186,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b19828f0fb114ce",
+  "name" : "test_validate_elements_login_page[locator11]",
+  "time" : {
+    "start" : 1737554982797,
+    "stop" : 1737554982805,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99f69cba17035534",
+  "name" : "test_signup_invalid_data[attrs0-Email address is invalid]",
+  "time" : {
+    "start" : 1737554982824,
+    "stop" : 1737554996710,
+    "duration" : 13886
+  },
+  "status" : "broken",
+  "severity" : "minor"
+}, {
+  "uid" : "dc5ef954fe5afcf5",
+  "name" : "test_validate_elements_login_page[locator8]",
+  "time" : {
+    "start" : 1737554874661,
+    "stop" : 1737554874669,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7e92cacd5ca2e8d",
+  "name" : "test_login_invalid_email[not-email]",
+  "time" : {
+    "start" : 1737554874718,
+    "stop" : 1737554878120,
+    "duration" : 3402
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "c8e911a412a321b4",
+  "name" : "test_validate_elements_login_page[locator1]",
+  "time" : {
+    "start" : 1737554975543,
+    "stop" : 1737554975711,
+    "duration" : 168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "973202c96a85d3d6",
+  "name" : "test_login_invalid_email[fake@emailcom]",
+  "time" : {
+    "start" : 1737554878128,
+    "stop" : 1737554882416,
+    "duration" : 4288
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "446fae0251e1943f",
+  "name" : "test_validate_elements_login_page[locator3]",
+  "time" : {
+    "start" : 1737554975845,
+    "stop" : 1737554975854,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14b1803944c2136a",
+  "name" : "test_signup[attrs0]",
+  "time" : {
+    "start" : 1737555026572,
+    "stop" : 1737555040282,
+    "duration" : 13710
+  },
+  "status" : "broken",
+  "severity" : "minor"
+}, {
+  "uid" : "cdcfa6bf3ef3ab8a",
+  "name" : "test_validate_elements_login_page[locator9]",
+  "time" : {
+    "start" : 1737554982768,
+    "stop" : 1737554982776,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19970bdbc6d69d1b",
+  "name" : "test_validate_elements_login_page[locator3]",
+  "time" : {
+    "start" : 1737554861164,
+    "stop" : 1737554861172,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d013c0a1e3a82ee9",
+  "name" : "test_login_full_flow",
+  "time" : {
+    "start" : 1737554882471,
+    "stop" : 1737554914422,
+    "duration" : 31951
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "1ce516ced6296d11",
+  "name" : "test_validate_elements_login_page[locator5]",
+  "time" : {
+    "start" : 1737554975877,
+    "stop" : 1737554975885,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2e057cff7bb595f",
+  "name" : "test_validate_elements_login_page[locator1]",
+  "time" : {
+    "start" : 1737554854316,
+    "stop" : 1737554854375,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "488c1e173081aabc",
+  "name" : "test_validate_elements_login_page[locator7]",
+  "time" : {
+    "start" : 1737554975939,
+    "stop" : 1737554982506,
+    "duration" : 6567
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4abe04f320909d0",
+  "name" : "test_signup_invalid_data[attrs1-Please enter your first name]",
+  "time" : {
+    "start" : 1737554996857,
+    "stop" : 1737555011671,
+    "duration" : 14814
+  },
+  "status" : "broken",
+  "severity" : "minor"
+}, {
+  "uid" : "71132cc05741f279",
+  "name" : "test_validate_elements_login_page[locator10]",
+  "time" : {
+    "start" : 1737554874691,
+    "stop" : 1737554874699,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bffcff6145377dd6",
+  "name" : "test_validate_elements_login_page[locator5]",
+  "time" : {
+    "start" : 1737554861193,
+    "stop" : 1737554867796,
+    "duration" : 6603
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2985f29a278ed219",
+  "name" : "test_validate_elements_login_page[locator0]",
+  "time" : {
+    "start" : 1737554975371,
+    "stop" : 1737554975386,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e14656bfdb7a3b4",
+  "name" : "test_validate_elements_login_page[locator10]",
+  "time" : {
+    "start" : 1737554982782,
+    "stop" : 1737554982790,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "574f33420d846548",
+  "name" : "test_search_product[sfbppxyhsdyfmdpictyqrucbcqdfakanjmpqfweu-element_to_present1]",
+  "time" : {
+    "start" : 1737554929097,
+    "stop" : 1737554944665,
+    "duration" : 15568
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "3c1d8f968abd9dc3",
+  "name" : "test_signup_invalid_data[attrs2-at least 8 characters]",
+  "time" : {
+    "start" : 1737555011806,
+    "stop" : 1737555026431,
+    "duration" : 14625
+  },
+  "status" : "broken",
+  "severity" : "minor"
+}, {
+  "uid" : "92c2aecacf6b43fe",
+  "name" : "test_validate_elements_login_page[locator7]",
+  "time" : {
+    "start" : 1737554874646,
+    "stop" : 1737554874655,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd0d5a5647d5f93",
+  "name" : "test_validate_elements_login_page[locator0]",
+  "time" : {
+    "start" : 1737554853627,
+    "stop" : 1737554854254,
+    "duration" : 627
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56903933406eb692",
+  "name" : "test_validate_elements_login_page[locator6]",
+  "time" : {
+    "start" : 1737554975913,
+    "stop" : 1737554975927,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db12ae0b8de15736",
+  "name" : "test_validate_elements_login_page[locator2]",
+  "time" : {
+    "start" : 1737554975792,
+    "stop" : 1737554975838,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

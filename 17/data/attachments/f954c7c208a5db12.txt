@@ -1,0 +1,22 @@
+https://signup.ebay.com/ajax/validatefield - Failed to load resource: the server responded with a status of 483 () 
+ ------------
+console-api 0:22 "undetected chromedriver 1337!" 
+ ------------
+https://ir.ebaystatic.com/rs/c/radware-o_V5snCU.js 85 The PerformanceObserver does not support buffered flag with the entryTypes argument. 
+ ------------
+console-api 0:22 "undetected chromedriver 1337!" 
+ ------------
+https://signup.ebay.com/captcharouter_challenge?ap=1&iim=AMjAuOx&iia=VATguMzPh&iiz=aujcuMjMxMGx&ru=https%3A%2F%2Fsignup.ebay.com%2Fajax%2Fvalidatefield&iid=4ae1b1e6-6e48-492c-be46-36f4c311d7c8 4:8 "done" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 20:10 "ebay tealium test 1" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 24:10 "ebay tealium test 2" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 26:10 "ebay tealium test 3" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 4:20 "madrona data:" "{\"madrona_placement_id\"  : \"100578\",\"site_id\":\"0\",\"guid\":\"8e58d6a11940a57062029786fffee3c5\",\"page_id\"  : \"\",\"operational_id\"  : \"4256592\",\"location_country_id\":\"1\",\"uep\":\"test\",\"fm_segmentation\":\"-1\"}" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 12:17 "ebay tealium testvar utag_data = {\"madrona_placement_id\"  : \"100578\",\"site_id\":\"0\",\"guid\":\"8e58d6a11940a57062029786fffee3c5\",\"page_id\"  : \"\",\"operational_id\"  : \"4256592\",\"location_country_id\":\"1\",\"uep\":\"test\",\"fm_segmentation\":\"-1\"};" 
+ ------------
+console-api 0:22 "undetected chromedriver 1337!" 
+ ------------

@@ -1,0 +1,32 @@
+https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&sgfl=gh&ru=https%3A%2F%2Fwww.ebay.com%2F 4:8 "done" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 20:10 "ebay tealium test 1" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 24:10 "ebay tealium test 2" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 26:10 "ebay tealium test 3" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 4:20 "madrona data:" "{\"madrona_placement_id\"  : \"100578\",\"site_id\":\"0\",\"guid\":\"8e56ec2e1940a8966f4b3f40ffff234f\",\"page_id\"  : \"\",\"operational_id\"  : \"2487283\",\"location_country_id\":\"1\",\"uep\":\"test\",\"fm_segmentation\":\"-1\"}" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 12:17 "ebay tealium testvar utag_data = {\"madrona_placement_id\"  : \"100578\",\"site_id\":\"0\",\"guid\":\"8e56ec2e1940a8966f4b3f40ffff234f\",\"page_id\"  : \"\",\"operational_id\"  : \"2487283\",\"location_country_id\":\"1\",\"uep\":\"test\",\"fm_segmentation\":\"-1\"};" 
+ ------------
+console-api 0:22 "undetected chromedriver 1337!" 
+ ------------
+console-api 0:22 "undetected chromedriver 1337!" 
+ ------------
+console-api 0:22 "undetected chromedriver 1337!" 
+ ------------
+https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&sgfl=gh&ru=https%3A%2F%2Fwww.ebay.com%2F - [GroupMarkerNotSet(crbug.com/242999)!:A0502200CC0A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content. 
+ ------------
+https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&sgfl=gh&ru=https%3A%2F%2Fwww.ebay.com%2F - [GroupMarkerNotSet(crbug.com/242999)!:A0202200CC0A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content. 
+ ------------
+https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&sgfl=gh&ru=https%3A%2F%2Fwww.ebay.com%2F - [GroupMarkerNotSet(crbug.com/242999)!:A040D605CC0A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content. 
+ ------------
+https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&sgfl=gh&ru=https%3A%2F%2Fwww.ebay.com%2F - [.WebGL-0xaa405f29400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels 
+ ------------
+https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&sgfl=gh&ru=https%3A%2F%2Fwww.ebay.com%2F - [GroupMarkerNotSet(crbug.com/242999)!:A070D605CC0A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content. 
+ ------------
+https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&sgfl=gh&ru=https%3A%2F%2Fwww.ebay.com%2F - [.WebGL-0xaa408c57100]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat) 
+ ------------
+https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&sgfl=gh&ru=https%3A%2F%2Fwww.ebay.com%2F - [GroupMarkerNotSet(crbug.com/242999)!:A0A0D605CC0A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content. 
+ ------------

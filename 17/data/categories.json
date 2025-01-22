@@ -1,0 +1,166 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: signin-error-msg is not found\nassert False\n +  where False = is_element_present(*('id', 'signin-error-msg'), timeout=5)\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7f8cbebd2150>.is_element_present",
+      "children" : [ {
+        "name" : "test_validate_elements_login_page[locator2]",
+        "uid" : "e7cef543003b3e26",
+        "parentUid" : "02c6c7617638714aaea9ec3d37b85ce5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1737554854387,
+          "stop" : 1737554860995,
+          "duration" : 6608
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('id', 'signin-error-msg')" ]
+      } ],
+      "uid" : "02c6c7617638714aaea9ec3d37b85ce5"
+    }, {
+      "name" : "AssertionError: //a[normalize-space()='Sign in'] is not found\nassert False\n +  where False = is_element_present(*('xpath', \"//a[normalize-space()='Sign in']\"), timeout=5)\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7f8cbebdc830>.is_element_present",
+      "children" : [ {
+        "name" : "test_validate_elements_login_page[locator5]",
+        "uid" : "bffcff6145377dd6",
+        "parentUid" : "4ca4643ccca982a83693e6644620f04d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1737554861193,
+          "stop" : 1737554867796,
+          "duration" : 6603
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//a[normalize-space()='Sign in']\")" ]
+      } ],
+      "uid" : "4ca4643ccca982a83693e6644620f04d"
+    }, {
+      "name" : "AssertionError: passkeys-title is not found\nassert False\n +  where False = is_element_present(*('id', 'passkeys-title'), timeout=5)\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7f8cbebd27b0>.is_element_present",
+      "children" : [ {
+        "name" : "test_validate_elements_login_page[locator6]",
+        "uid" : "a3158811eb7c4b5d",
+        "parentUid" : "8721738efb7c5c1772b1c76108728bc8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1737554867913,
+          "stop" : 1737554874534,
+          "duration" : 6621
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('id', 'passkeys-title')" ]
+      } ],
+      "uid" : "8721738efb7c5c1772b1c76108728bc8"
+    }, {
+      "name" : "AssertionError: The Website should redirect the user to passkey title page\nassert False\n +  where False = is_element_present(*('id', 'passkeys-title'))\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7f8cbec64fb0>.is_element_present\n +    and   ('id', 'passkeys-title') = LoginPageLocators.PASSKEY_TITLE",
+      "children" : [ {
+        "name" : "test_login_full_flow",
+        "uid" : "d013c0a1e3a82ee9",
+        "parentUid" : "eb72c2188cdbee57fe54f632eefc2427",
+        "status" : "failed",
+        "time" : {
+          "start" : 1737554882471,
+          "stop" : 1737554914422,
+          "duration" : 31951
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb72c2188cdbee57fe54f632eefc2427"
+    }, {
+      "name" : "AssertionError: phoneCountry is not found\nassert False\n +  where False = is_element_present(*('id', 'phoneCountry'), timeout=5)\n +    where is_element_present = <src.pages.signup_page.SignupPage object at 0x7f8cbec68bc0>.is_element_present",
+      "children" : [ {
+        "name" : "test_validate_elements_login_page[locator7]",
+        "uid" : "488c1e173081aabc",
+        "parentUid" : "b0250b94004a322432e740c15d036abc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1737554975939,
+          "stop" : 1737554982506,
+          "duration" : 6567
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('id', 'phoneCountry')" ]
+      } ],
+      "uid" : "b0250b94004a322432e740c15d036abc"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Exception: Message: element click intercepted: Element <button name=\"EMAIL_REG_FORM_SUBMIT\" id=\"EMAIL_REG_FORM_SUBMIT\" class=\"btn btn--primary btn--large btn--fluid\" type=\"submit\" aria-describedby=\"legalTextId\" data-click-tracking-data=\"{&quot;linkId&quot;:47252,&quot;pageId&quot;:&quot;4381686&quot;,&quot;type&quot;:&quot;_plsr&quot;,&quot;payload&quot;:{&quot;RegModuleName&quot;:&quot;BUYER_REG_PERSONAL_EMAIL_DWEB&quot;,&quot;bs&quot;:&quot;0&quot;,&quot;ul&quot;:&quot;en-US&quot;,&quot;uc&quot;:1}}\" data-viewport=\"{&quot;trackableId&quot;:&quot;01JJ75HP7XXTF55F2BQDJZW8N4&quot;}\">...</button> is not clickable at point (1308, 494). Other element would receive the click: <iframe id=\"captchaFrame\" src=\"/captcharouter_challenge?ap=1&amp;iim=gMjAuOe&amp;iia=YGTguMzkm&amp;iiz=aumcuMjMxxVS&amp;ru=https%3A%2F%2Fsignup.ebay.com%2Fajax%2Fvalidatefield&amp;iid=792a5e5d-fef2-4b1d-b712-49a29377b34b\" style=\"position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; margin: 0px; padding: 0px; border: 0px; background-color: white; z-index: 99999;\"></iframe>\n  (Session info: chrome=132.0.6834.0)\nStacktrace:\n#0 0x55d630add7ca <unknown>\n#1 0x55d6305d52f0 <unknown>\n#2 0x55d63062bcfe <unknown>\n#3 0x55d630629c2c <unknown>\n#4 0x55d630627342 <unknown>\n#5 0x55d63062655c <unknown>\n#6 0x55d6306191ed <unknown>\n#7 0x55d6306499b2 <unknown>\n#8 0x55d630618b78 <unknown>\n#9 0x55d630649b7e <unknown>\n#10 0x55d6306683b3 <unknown>\n#11 0x55d630649753 <unknown>\n#12 0x55d630616baa <unknown>\n#13 0x55d630617dfe <unknown>\n#14 0x55d630aa838b <unknown>\n#15 0x55d630aac307 <unknown>\n#16 0x55d630a94e7c <unknown>\n#17 0x55d630aacec7 <unknown>\n#18 0x55d630a7924f <unknown>\n#19 0x55d630acc2f8 <unknown>\n#20 0x55d630acc4c0 <unknown>\n#21 0x55d630adc646 <unknown>\n#22 0x7fc49b89ca94 <unknown>\n#23 0x7fc49b929c3c <unknown>\n\nFailed to click on EMAIL_REG_FORM_SUBMIT",
+      "children" : [ {
+        "name" : "test_signup_invalid_data[attrs0-Email address is invalid]",
+        "uid" : "99f69cba17035534",
+        "parentUid" : "201d7674a9133e6a14a641b4a9e70466",
+        "status" : "broken",
+        "time" : {
+          "start" : 1737554982824,
+          "stop" : 1737554996710,
+          "duration" : 13886
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'first_name': 'excdql', 'last_name': 'uzymyh', 'email': 'invalid_email', 'password': '#EbayTesting12'}", "'Email address is invalid'" ]
+      } ],
+      "uid" : "201d7674a9133e6a14a641b4a9e70466"
+    }, {
+      "name" : "Exception: Message: element click intercepted: Element <button name=\"EMAIL_REG_FORM_SUBMIT\" id=\"EMAIL_REG_FORM_SUBMIT\" class=\"btn btn--primary btn--large btn--fluid\" type=\"submit\" aria-describedby=\"legalTextId\" data-click-tracking-data=\"{&quot;linkId&quot;:47252,&quot;pageId&quot;:&quot;4381686&quot;,&quot;type&quot;:&quot;_plsr&quot;,&quot;payload&quot;:{&quot;RegModuleName&quot;:&quot;BUYER_REG_PERSONAL_EMAIL_DWEB&quot;,&quot;bs&quot;:&quot;0&quot;,&quot;ul&quot;:&quot;en-US&quot;,&quot;uc&quot;:1}}\" data-viewport=\"{&quot;trackableId&quot;:&quot;01JJ75HP7XXTF55F2BQDJZW8N4&quot;}\" disabled=\"\">...</button> is not clickable at point (1308, 512). Other element would receive the click: <iframe id=\"captchaFrame\" src=\"/captcharouter_challenge?ap=1&amp;iim=fMjAuOZ&amp;iia=OiTguMzlT&amp;iiz=MrpcuMjMxxnU&amp;ru=https%3A%2F%2Fsignup.ebay.com%2Fajax%2Fvalidatefield&amp;iid=d47bdd58-61d1-40b9-81c9-be224d4257c5\" style=\"position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; margin: 0px; padding: 0px; border: 0px; background-color: white; z-index: 99999;\"></iframe>\n  (Session info: chrome=132.0.6834.0)\nStacktrace:\n#0 0x55d630add7ca <unknown>\n#1 0x55d6305d52f0 <unknown>\n#2 0x55d63062bcfe <unknown>\n#3 0x55d630629c2c <unknown>\n#4 0x55d630627342 <unknown>\n#5 0x55d63062655c <unknown>\n#6 0x55d6306191ed <unknown>\n#7 0x55d6306499b2 <unknown>\n#8 0x55d630618b78 <unknown>\n#9 0x55d630649b7e <unknown>\n#10 0x55d6306683b3 <unknown>\n#11 0x55d630649753 <unknown>\n#12 0x55d630616baa <unknown>\n#13 0x55d630617dfe <unknown>\n#14 0x55d630aa838b <unknown>\n#15 0x55d630aac307 <unknown>\n#16 0x55d630a94e7c <unknown>\n#17 0x55d630aacec7 <unknown>\n#18 0x55d630a7924f <unknown>\n#19 0x55d630acc2f8 <unknown>\n#20 0x55d630acc4c0 <unknown>\n#21 0x55d630adc646 <unknown>\n#22 0x7fc49b89ca94 <unknown>\n#23 0x7fc49b929c3c <unknown>\n\nFailed to click on EMAIL_REG_FORM_SUBMIT",
+      "children" : [ {
+        "name" : "test_signup_invalid_data[attrs1-Please enter your first name]",
+        "uid" : "d4abe04f320909d0",
+        "parentUid" : "523849b548faa13a00337830c9aa96fe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1737554996857,
+          "stop" : 1737555011671,
+          "duration" : 14814
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'first_name': '', 'last_name': 'nksizo', 'email': 'wztagjpyilcbfm121@gmail.com', 'password': '#EbayTesting12'}", "'Please enter your first name'" ]
+      } ],
+      "uid" : "523849b548faa13a00337830c9aa96fe"
+    }, {
+      "name" : "Exception: Message: element click intercepted: Element <button name=\"EMAIL_REG_FORM_SUBMIT\" id=\"EMAIL_REG_FORM_SUBMIT\" class=\"btn btn--primary btn--large btn--fluid\" type=\"submit\" aria-describedby=\"legalTextId\" data-click-tracking-data=\"{&quot;linkId&quot;:47252,&quot;pageId&quot;:&quot;4381686&quot;,&quot;type&quot;:&quot;_plsr&quot;,&quot;payload&quot;:{&quot;RegModuleName&quot;:&quot;BUYER_REG_PERSONAL_EMAIL_DWEB&quot;,&quot;bs&quot;:&quot;0&quot;,&quot;ul&quot;:&quot;en-US&quot;,&quot;uc&quot;:1}}\" data-viewport=\"{&quot;trackableId&quot;:&quot;01JJ75HP7XXTF55F2BQDJZW8N4&quot;}\" disabled=\"\">...</button> is not clickable at point (1308, 494). Other element would receive the click: <iframe id=\"captchaFrame\" src=\"/captcharouter_challenge?ap=1&amp;iim=xMjAuOa&amp;iia=HHTguMzUR&amp;iiz=eqEcuMjMxcud&amp;ru=https%3A%2F%2Fsignup.ebay.com%2Fajax%2Fvalidatefield&amp;iid=46de50ae-cb93-4ec8-a814-8a08cfa57b7f\" style=\"position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; margin: 0px; padding: 0px; border: 0px; background-color: white; z-index: 99999;\"></iframe>\n  (Session info: chrome=132.0.6834.0)\nStacktrace:\n#0 0x55d630add7ca <unknown>\n#1 0x55d6305d52f0 <unknown>\n#2 0x55d63062bcfe <unknown>\n#3 0x55d630629c2c <unknown>\n#4 0x55d630627342 <unknown>\n#5 0x55d63062655c <unknown>\n#6 0x55d6306191ed <unknown>\n#7 0x55d6306499b2 <unknown>\n#8 0x55d630618b78 <unknown>\n#9 0x55d630649b7e <unknown>\n#10 0x55d6306683b3 <unknown>\n#11 0x55d630649753 <unknown>\n#12 0x55d630616baa <unknown>\n#13 0x55d630617dfe <unknown>\n#14 0x55d630aa838b <unknown>\n#15 0x55d630aac307 <unknown>\n#16 0x55d630a94e7c <unknown>\n#17 0x55d630aacec7 <unknown>\n#18 0x55d630a7924f <unknown>\n#19 0x55d630acc2f8 <unknown>\n#20 0x55d630acc4c0 <unknown>\n#21 0x55d630adc646 <unknown>\n#22 0x7fc49b89ca94 <unknown>\n#23 0x7fc49b929c3c <unknown>\n\nFailed to click on EMAIL_REG_FORM_SUBMIT",
+      "children" : [ {
+        "name" : "test_signup_invalid_data[attrs2-at least 8 characters]",
+        "uid" : "3c1d8f968abd9dc3",
+        "parentUid" : "09530762895515fe5cf8271aa4638a23",
+        "status" : "broken",
+        "time" : {
+          "start" : 1737555011806,
+          "stop" : 1737555026431,
+          "duration" : 14625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'first_name': 'yroztu', 'last_name': 'onmypu', 'email': 'krkuerkppgrhhl121@gmail.com', 'password': 'badpass'}", "'at least 8 characters'" ]
+      } ],
+      "uid" : "09530762895515fe5cf8271aa4638a23"
+    }, {
+      "name" : "Exception: Message: element click intercepted: Element <button name=\"EMAIL_REG_FORM_SUBMIT\" id=\"EMAIL_REG_FORM_SUBMIT\" class=\"btn btn--primary btn--large btn--fluid\" type=\"submit\" aria-describedby=\"legalTextId\" data-click-tracking-data=\"{&quot;linkId&quot;:47252,&quot;pageId&quot;:&quot;4381686&quot;,&quot;type&quot;:&quot;_plsr&quot;,&quot;payload&quot;:{&quot;RegModuleName&quot;:&quot;BUYER_REG_PERSONAL_EMAIL_DWEB&quot;,&quot;bs&quot;:&quot;0&quot;,&quot;ul&quot;:&quot;en-US&quot;,&quot;uc&quot;:1}}\" data-viewport=\"{&quot;trackableId&quot;:&quot;01JJ75HP7XXTF55F2BQDJZW8N4&quot;}\">...</button> is not clickable at point (1308, 494). Other element would receive the click: <iframe id=\"captchaFrame\" src=\"/captcharouter_challenge?ap=1&amp;iim=AMjAuOx&amp;iia=VATguMzPh&amp;iiz=aujcuMjMxMGx&amp;ru=https%3A%2F%2Fsignup.ebay.com%2Fajax%2Fvalidatefield&amp;iid=4ae1b1e6-6e48-492c-be46-36f4c311d7c8\" style=\"position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; margin: 0px; padding: 0px; border: 0px; background-color: white; z-index: 99999;\"></iframe>\n  (Session info: chrome=132.0.6834.0)\nStacktrace:\n#0 0x55d630add7ca <unknown>\n#1 0x55d6305d52f0 <unknown>\n#2 0x55d63062bcfe <unknown>\n#3 0x55d630629c2c <unknown>\n#4 0x55d630627342 <unknown>\n#5 0x55d63062655c <unknown>\n#6 0x55d6306191ed <unknown>\n#7 0x55d6306499b2 <unknown>\n#8 0x55d630618b78 <unknown>\n#9 0x55d630649b7e <unknown>\n#10 0x55d6306683b3 <unknown>\n#11 0x55d630649753 <unknown>\n#12 0x55d630616baa <unknown>\n#13 0x55d630617dfe <unknown>\n#14 0x55d630aa838b <unknown>\n#15 0x55d630aac307 <unknown>\n#16 0x55d630a94e7c <unknown>\n#17 0x55d630aacec7 <unknown>\n#18 0x55d630a7924f <unknown>\n#19 0x55d630acc2f8 <unknown>\n#20 0x55d630acc4c0 <unknown>\n#21 0x55d630adc646 <unknown>\n#22 0x7fc49b89ca94 <unknown>\n#23 0x7fc49b929c3c <unknown>\n\nFailed to click on EMAIL_REG_FORM_SUBMIT",
+      "children" : [ {
+        "name" : "test_signup[attrs0]",
+        "uid" : "14b1803944c2136a",
+        "parentUid" : "48756e487eb5be46929fe9b28d8d816f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1737555026572,
+          "stop" : 1737555040282,
+          "duration" : 13710
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'first_name': 'phrtcw', 'last_name': 'hbfltp', 'email': 'mbdskvk124@gmail.com', 'password': '#EbayTesting12'}" ]
+      } ],
+      "uid" : "48756e487eb5be46929fe9b28d8d816f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
