@@ -7,9 +7,7 @@ This project is a robust automation testing framework designed to validate key f
 
 To see an example of the test in action, watch the following video:
 
-<video src="attachments/test_example.mp4" controls="controls" style="max-width: 70%; height: auto;">
-    Your browser does not support the video tag.
-</video>
+![](attachments/test_example.mp4)
 
 This video demonstrates the execution of the `test_buy_product_page` test, showcasing the product search and checkout functionalities.
 
