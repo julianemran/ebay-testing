@@ -67,25 +67,31 @@ To install and set up the project, follow these steps:
 ## Usage
 To run the tests, use the following commands:
 
+- Set environment variables:
+    ```sh
+    export EBAY_EMAIL=your_username
+    export EBAY_PASS=your_password
+    ```
+
 - Run all tests:
-  ```sh
-  pytest
-  ```
+    ```sh
+    pytest
+    ```
 
 - Run a specific test file:
-  ```sh
-  pytest tests/filename_test.py
-  ```
+    ```sh
+    pytest tests/filename_test.py
+    ```
 
 - Generate Allure reports:
     1. Run the tests with the `--alluredir` option to specify the directory for storing the results:
-         ```sh
-         pytest --alluredir=allure-results
-         ```
+        ```sh
+        pytest --alluredir=allure-results
+        ```
     2. Generate the Allure report from the stored results:
-         ```sh
-         allure generate allure-results
-         ```
+        ```sh
+        allure generate allure-results
+        ```
 
 ## Allure Reports
 Allure reports provide a comprehensive overview of the test results. Below are examples of Allure report outputs:
