@@ -1,0 +1,20 @@
+https://signup.ebay.com/ajax/validatefield - Failed to load resource: the server responded with a status of 483 () 
+ ------------
+console-api 0:22 "undetected chromedriver 1337!" 
+ ------------
+console-api 0:22 "undetected chromedriver 1337!" 
+ ------------
+https://signup.ebay.com/captcharouter_challenge?ap=1&iim=CMjAuMW&iia=PJTY5LjSs&iiz=ZQuAuMTkyhcU&ru=https%3A%2F%2Fsignup.ebay.com%2Fajax%2Fvalidatefield&iid=30c0d935-c59d-48f0-869c-d4bb14dac707 4:8 "done" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 20:10 "ebay tealium test 1" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 24:10 "ebay tealium test 2" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 26:10 "ebay tealium test 3" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 4:20 "madrona data:" "{\"madrona_placement_id\"  : \"100578\",\"site_id\":\"0\",\"guid\":\"8e4ecd961940a560c7a1e913fffd46d1\",\"page_id\"  : \"\",\"operational_id\"  : \"4256592\",\"location_country_id\":\"1\",\"uep\":\"test\",\"fm_segmentation\":\"-1\"}" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 12:17 "ebay tealium testvar utag_data = {\"madrona_placement_id\"  : \"100578\",\"site_id\":\"0\",\"guid\":\"8e4ecd961940a560c7a1e913fffd46d1\",\"page_id\"  : \"\",\"operational_id\"  : \"4256592\",\"location_country_id\":\"1\",\"uep\":\"test\",\"fm_segmentation\":\"-1\"};" 
+ ------------
+console-api 0:22 "undetected chromedriver 1337!" 
+ ------------

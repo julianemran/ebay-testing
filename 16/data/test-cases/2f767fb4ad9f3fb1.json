@@ -1,0 +1,154 @@
+{
+  "uid" : "2f767fb4ad9f3fb1",
+  "name" : "test_validate_elements_login_page[locator10]",
+  "fullName" : "tests.signup_page.test_signup_page.TestSignupPage#test_validate_elements_login_page",
+  "historyId" : "57b2dc5e4d3139f3490e5baf873bca2f",
+  "time" : {
+    "start" : 1737554325207,
+    "stop" : 1737554325215,
+    "duration" : 8
+  },
+  "description" : "This test validates the presence of elements on the Signup page.",
+  "descriptionHtml" : "<p>This test validates the presence of elements on the Signup page.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "page",
+    "time" : {
+      "start" : 1737554325204,
+      "stop" : 1737554325207,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log_report",
+    "time" : {
+      "start" : 1737554325207,
+      "stop" : 1737554325207,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1737554172665,
+      "stop" : 1737554172665,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1737554315561,
+      "stop" : 1737554316249,
+      "duration" : 688
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "log_report::0",
+    "time" : {
+      "start" : 1737554325216,
+      "stop" : 1737554325217,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1737554381143,
+      "stop" : 1737554381308,
+      "duration" : 165
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.signup_page"
+  }, {
+    "name" : "suite",
+    "value" : "test_signup_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSignupPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1376-199"
+  }, {
+    "name" : "thread",
+    "value" : "2628-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.signup_page.test_signup_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "locator",
+    "value" : "('id', 'facebook')"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f767fb4ad9f3fb1.json",
+  "parameterValues" : [ "('id', 'facebook')" ]
+}
