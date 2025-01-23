@@ -7,7 +7,11 @@ This project is a robust automation testing framework designed to validate key f
 
 To see an example of the test in action, watch the following video:
 
-![](attachments/test_example.mp4)
+
+
+https://github.com/user-attachments/assets/55ece915-f6b4-42fd-b20f-7d7db2715555
+
+
 
 This video demonstrates the execution of the `test_buy_product_page` test, showcasing the product search and checkout functionalities.
 
