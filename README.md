@@ -98,7 +98,7 @@ To run the tests, use the following commands:
 ## Allure Reports
 Allure reports provide a comprehensive overview of the test results. Below are examples of Allure report outputs:
 
-![Allure Report Example](attachments\allure_example.png)
+![Allure Report Example](attachments/allure_example.png)
 
 ### Key Sections in the Report
 - **Test Results:** Displays the status of each test case (passed, failed, skipped).
