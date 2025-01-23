@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://julianemran.github.io/ebay-testing",
+  "buildOrder" : 18,
+  "buildName" : "GitHub Actions Run #12928580962",
+  "buildUrl" : "https://github.com/julianemran/ebay-testing/actions/runs/12928580962",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://julianemran.github.io/ebay-testing/18/"
+} ]

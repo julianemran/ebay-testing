@@ -1,0 +1,185 @@
+{
+  "uid" : "3e15acdf6c2394a5",
+  "name" : "test_login_full_flow",
+  "fullName" : "tests.login_page.test_login_page.TestLoginPage#test_login_full_flow",
+  "historyId" : "8849d382cdbcf966ec3b7a9e673820f3",
+  "time" : {
+    "start" : 1737633264446,
+    "stop" : 1737633296917,
+    "duration" : 32471
+  },
+  "description" : "This test attempts to log into the website using a login and a password. Fails if any error happens.",
+  "descriptionHtml" : "<p>This test attempts to log into the website using a login and a password. Fails if any error happens.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: The Website should redirect the user to passkey title page\nassert False\n +  where False = is_element_present(*('id', 'passkeys-title'))\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7f0928824f20>.is_element_present\n +    and   ('id', 'passkeys-title') = LoginPageLocators.PASSKEY_TITLE",
+  "statusTrace" : "self = <tests.login_page.test_login_page.TestLoginPage object at 0x7f09289363c0>\npage = <src.pages.login_page.LoginPage object at 0x7f0928824f20>\n\n    @allure.severity(allure.severity_level.CRITICAL)\n    def test_login_full_flow(self, page):\n        allure.dynamic.description(\"This test attempts to log into the website using a login and a password. Fails if any error happens.\")\n        page.fill(*LoginPageLocators.USERNAME_INPUT, filler=os.getenv(\"EBAY_EMAIL\"), clean=True)\n        page.press_the_button(*LoginPageLocators.SIGNIN_BTN)\n        page.fill(*LoginPageLocators.PASS_INPUT, filler=os.getenv(\"EBAY_PASS\"), clean=True)\n        page.press_the_button(*LoginPageLocators.SIGNIN_BTN_PASS_PAGE)\n>       assert page.is_element_present(*LoginPageLocators.PASSKEY_TITLE), (f'The Website should redirect the user '\n                                                                           f'to passkey title page')\nE       AssertionError: The Website should redirect the user to passkey title page\nE       assert False\nE        +  where False = is_element_present(*('id', 'passkeys-title'))\nE        +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7f0928824f20>.is_element_present\nE        +    and   ('id', 'passkeys-title') = LoginPageLocators.PASSKEY_TITLE\n\ntests/login_page/test_login_page.py:37: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "page",
+    "time" : {
+      "start" : 1737633264439,
+      "stop" : 1737633264445,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log_report",
+    "time" : {
+      "start" : 1737633264446,
+      "stop" : 1737633264446,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1737633176847,
+      "stop" : 1737633223089,
+      "duration" : 46242
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "log_report::0",
+    "time" : {
+      "start" : 1737633296920,
+      "stop" : 1737633297033,
+      "duration" : 113
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b3dd28131b1f8e5",
+      "name" : "test_login_full_flow_screenshot.png",
+      "source" : "b3dd28131b1f8e5.png",
+      "type" : "image/png",
+      "size" : 58804
+    }, {
+      "uid" : "cd5c70bf8e30d32",
+      "name" : "test_login_full_flow_Console",
+      "source" : "cd5c70bf8e30d32.txt",
+      "type" : "text/plain",
+      "size" : 6890
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1737633297033,
+      "stop" : 1737633297197,
+      "duration" : 164
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.login_page"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1705-664"
+  }, {
+    "name" : "thread",
+    "value" : "2648-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.login_page.test_login_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "d013c0a1e3a82ee9",
+        "reportUrl" : "https://julianemran.github.io/ebay-testing/17//#testresult/d013c0a1e3a82ee9",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: The Website should redirect the user to passkey title page\nassert False\n +  where False = is_element_present(*('id', 'passkeys-title'))\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7f8cbec64fb0>.is_element_present\n +    and   ('id', 'passkeys-title') = LoginPageLocators.PASSKEY_TITLE",
+        "time" : {
+          "start" : 1737554882471,
+          "stop" : 1737554914422,
+          "duration" : 31951
+        }
+      }, {
+        "uid" : "c6a4aa2f1972879b",
+        "reportUrl" : "https://julianemran.github.io/ebay-testing/16//#testresult/c6a4aa2f1972879b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: The Website should redirect the user to passkey title page\nassert False\n +  where False = is_element_present(*('id', 'passkeys-title'))\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7fab95120ef0>.is_element_present\n +    and   ('id', 'passkeys-title') = LoginPageLocators.PASSKEY_TITLE",
+        "time" : {
+          "start" : 1737554226045,
+          "stop" : 1737554258550,
+          "duration" : 32505
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3e15acdf6c2394a5.json",
+  "parameterValues" : [ ]
+}

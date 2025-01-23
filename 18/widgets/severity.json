@@ -1,0 +1,171 @@
+[ {
+  "uid" : "3e15acdf6c2394a5",
+  "name" : "test_login_full_flow",
+  "time" : {
+    "start" : 1737633264446,
+    "stop" : 1737633296917,
+    "duration" : 32471
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "bf07a451a4def41a",
+  "name" : "test_search_product[iphone 16 case-element_to_present0]",
+  "time" : {
+    "start" : 1737633299922,
+    "stop" : 1737633310268,
+    "duration" : 10346
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "d421e078a2ee7905",
+  "name" : "test_login_invalid_email[not-email]",
+  "time" : {
+    "start" : 1737633256706,
+    "stop" : 1737633260167,
+    "duration" : 3461
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "a8e21104abe45072",
+  "name" : "test_validate_elements_login_page[locator6]",
+  "time" : {
+    "start" : 1737633249956,
+    "stop" : 1737633256526,
+    "duration" : 6570
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fef1dc7d59f1b444",
+  "name" : "test_validate_elements_login_page[locator4]",
+  "time" : {
+    "start" : 1737633243227,
+    "stop" : 1737633243235,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "390e04b3c02058e",
+  "name" : "test_validate_elements_login_page[locator7]",
+  "time" : {
+    "start" : 1737633256638,
+    "stop" : 1737633256646,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1ed091c2dc44702",
+  "name" : "test_validate_elements_login_page[locator11]",
+  "time" : {
+    "start" : 1737633256695,
+    "stop" : 1737633256700,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7e4dfecc070d97b",
+  "name" : "test_validate_elements_login_page[locator10]",
+  "time" : {
+    "start" : 1737633256681,
+    "stop" : 1737633256689,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "563582b887db48c9",
+  "name" : "test_login_invalid_email[fake@emailcom]",
+  "time" : {
+    "start" : 1737633260175,
+    "stop" : 1737633264435,
+    "duration" : 4260
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "cab5082bd26525bd",
+  "name" : "test_validate_elements_login_page[locator1]",
+  "time" : {
+    "start" : 1737633236377,
+    "stop" : 1737633236389,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46113f906bf18bb2",
+  "name" : "test_validate_elements_login_page[locator8]",
+  "time" : {
+    "start" : 1737633256653,
+    "stop" : 1737633256660,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af5e29d052af3cb7",
+  "name" : "test_validate_elements_login_page[locator9]",
+  "time" : {
+    "start" : 1737633256667,
+    "stop" : 1737633256674,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2ac0df3bbf6e668",
+  "name" : "test_validate_elements_login_page[locator2]",
+  "time" : {
+    "start" : 1737633236405,
+    "stop" : 1737633242977,
+    "duration" : 6572
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d155e209d3a55034",
+  "name" : "test_validate_elements_login_page[locator0]",
+  "time" : {
+    "start" : 1737633235869,
+    "stop" : 1737633235976,
+    "duration" : 107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d34855f0ba6182e",
+  "name" : "test_validate_elements_login_page[locator3]",
+  "time" : {
+    "start" : 1737633243212,
+    "stop" : 1737633243220,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c72fd0f0cfabdd20",
+  "name" : "test_validate_elements_login_page[locator5]",
+  "time" : {
+    "start" : 1737633243241,
+    "stop" : 1737633249842,
+    "duration" : 6601
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a453cc4f7f95f984",
+  "name" : "test_search_product[zdwvpcrrvrxclnypjtpujsefvgrbdknkaysadejd-element_to_present1]",
+  "time" : {
+    "start" : 1737633311293,
+    "stop" : 1737633325663,
+    "duration" : 14370
+  },
+  "status" : "passed",
+  "severity" : "minor"
+} ]

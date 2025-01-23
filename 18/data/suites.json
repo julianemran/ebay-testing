@@ -1,0 +1,250 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.login_page",
+    "children" : [ {
+      "name" : "test_login_page",
+      "children" : [ {
+        "name" : "TestLoginPage",
+        "children" : [ {
+          "name" : "test_validate_elements_login_page[locator0]",
+          "uid" : "d155e209d3a55034",
+          "parentUid" : "95f758ece4a39d3ba302b4d04176d523",
+          "status" : "passed",
+          "time" : {
+            "start" : 1737633235869,
+            "stop" : 1737633235976,
+            "duration" : 107
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('id', 'signin_appl_btn')" ]
+        }, {
+          "name" : "test_validate_elements_login_page[locator1]",
+          "uid" : "cab5082bd26525bd",
+          "parentUid" : "95f758ece4a39d3ba302b4d04176d523",
+          "status" : "passed",
+          "time" : {
+            "start" : 1737633236377,
+            "stop" : 1737633236389,
+            "duration" : 12
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('id', 'create-account-link')" ]
+        }, {
+          "name" : "test_validate_elements_login_page[locator2]",
+          "uid" : "e2ac0df3bbf6e668",
+          "parentUid" : "95f758ece4a39d3ba302b4d04176d523",
+          "status" : "failed",
+          "time" : {
+            "start" : 1737633236405,
+            "stop" : 1737633242977,
+            "duration" : 6572
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('id', 'signin-error-msg')" ]
+        }, {
+          "name" : "test_validate_elements_login_page[locator3]",
+          "uid" : "5d34855f0ba6182e",
+          "parentUid" : "95f758ece4a39d3ba302b4d04176d523",
+          "status" : "passed",
+          "time" : {
+            "start" : 1737633243212,
+            "stop" : 1737633243220,
+            "duration" : 8
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('id', 'signin_fb_btn')" ]
+        }, {
+          "name" : "test_validate_elements_login_page[locator4]",
+          "uid" : "fef1dc7d59f1b444",
+          "parentUid" : "95f758ece4a39d3ba302b4d04176d523",
+          "status" : "passed",
+          "time" : {
+            "start" : 1737633243227,
+            "stop" : 1737633243235,
+            "duration" : 8
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('id', 'signin_ggl_btn')" ]
+        }, {
+          "name" : "test_validate_elements_login_page[locator5]",
+          "uid" : "c72fd0f0cfabdd20",
+          "parentUid" : "95f758ece4a39d3ba302b4d04176d523",
+          "status" : "failed",
+          "time" : {
+            "start" : 1737633243241,
+            "stop" : 1737633249842,
+            "duration" : 6601
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//a[normalize-space()='Sign in']\")" ]
+        }, {
+          "name" : "test_validate_elements_login_page[locator6]",
+          "uid" : "a8e21104abe45072",
+          "parentUid" : "95f758ece4a39d3ba302b4d04176d523",
+          "status" : "failed",
+          "time" : {
+            "start" : 1737633249956,
+            "stop" : 1737633256526,
+            "duration" : 6570
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('id', 'passkeys-title')" ]
+        }, {
+          "name" : "test_validate_elements_login_page[locator7]",
+          "uid" : "390e04b3c02058e",
+          "parentUid" : "95f758ece4a39d3ba302b4d04176d523",
+          "status" : "passed",
+          "time" : {
+            "start" : 1737633256638,
+            "stop" : 1737633256646,
+            "duration" : 8
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//input[@id='pass']\")" ]
+        }, {
+          "name" : "test_validate_elements_login_page[locator8]",
+          "uid" : "46113f906bf18bb2",
+          "parentUid" : "95f758ece4a39d3ba302b4d04176d523",
+          "status" : "passed",
+          "time" : {
+            "start" : 1737633256653,
+            "stop" : 1737633256660,
+            "duration" : 7
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('css selector', \"[data-testid='signin-continue-btn']\")" ]
+        }, {
+          "name" : "test_validate_elements_login_page[locator9]",
+          "uid" : "af5e29d052af3cb7",
+          "parentUid" : "95f758ece4a39d3ba302b4d04176d523",
+          "status" : "passed",
+          "time" : {
+            "start" : 1737633256667,
+            "stop" : 1737633256674,
+            "duration" : 7
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('id', 'sgnBt')" ]
+        }, {
+          "name" : "test_validate_elements_login_page[locator10]",
+          "uid" : "d7e4dfecc070d97b",
+          "parentUid" : "95f758ece4a39d3ba302b4d04176d523",
+          "status" : "passed",
+          "time" : {
+            "start" : 1737633256681,
+            "stop" : 1737633256689,
+            "duration" : 8
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//input[@id='kmsi-checkbox']\")" ]
+        }, {
+          "name" : "test_validate_elements_login_page[locator11]",
+          "uid" : "f1ed091c2dc44702",
+          "parentUid" : "95f758ece4a39d3ba302b4d04176d523",
+          "status" : "passed",
+          "time" : {
+            "start" : 1737633256695,
+            "stop" : 1737633256700,
+            "duration" : 5
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('css selector', \"[data-testid='userid']\")" ]
+        }, {
+          "name" : "test_login_invalid_email[not-email]",
+          "uid" : "d421e078a2ee7905",
+          "parentUid" : "95f758ece4a39d3ba302b4d04176d523",
+          "status" : "passed",
+          "time" : {
+            "start" : 1737633256706,
+            "stop" : 1737633260167,
+            "duration" : 3461
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'not-email'" ]
+        }, {
+          "name" : "test_login_invalid_email[fake@emailcom]",
+          "uid" : "563582b887db48c9",
+          "parentUid" : "95f758ece4a39d3ba302b4d04176d523",
+          "status" : "passed",
+          "time" : {
+            "start" : 1737633260175,
+            "stop" : 1737633264435,
+            "duration" : 4260
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'fake@emailcom'" ]
+        }, {
+          "name" : "test_login_full_flow",
+          "uid" : "3e15acdf6c2394a5",
+          "parentUid" : "95f758ece4a39d3ba302b4d04176d523",
+          "status" : "failed",
+          "time" : {
+            "start" : 1737633264446,
+            "stop" : 1737633296917,
+            "duration" : 32471
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "95f758ece4a39d3ba302b4d04176d523"
+      } ],
+      "uid" : "5eb5a7d6aa9c2829d647a3792285faf8"
+    } ],
+    "uid" : "9112bdb9f0ebf206c7badc8586edb567"
+  }, {
+    "name" : "tests.product_page",
+    "children" : [ {
+      "name" : "test_product_page",
+      "children" : [ {
+        "name" : "TestSignupPage",
+        "children" : [ {
+          "name" : "test_search_product[iphone 16 case-element_to_present0]",
+          "uid" : "bf07a451a4def41a",
+          "parentUid" : "8f3628ac109b7e154fc32d95eb3ea61f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1737633299922,
+            "stop" : 1737633310268,
+            "duration" : 10346
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//ul[@class='srp-results srp-list clearfix']\")", "'iphone 16 case'" ]
+        }, {
+          "name" : "test_search_product[zdwvpcrrvrxclnypjtpujsefvgrbdknkaysadejd-element_to_present1]",
+          "uid" : "a453cc4f7f95f984",
+          "parentUid" : "8f3628ac109b7e154fc32d95eb3ea61f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1737633311293,
+            "stop" : 1737633325663,
+            "duration" : 14370
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//h3[normalize-space()='No exact matches found']\")", "'zdwvpcrrvrxclnypjtpujsefvgrbdknkaysadejd'" ]
+        } ],
+        "uid" : "8f3628ac109b7e154fc32d95eb3ea61f"
+      } ],
+      "uid" : "02fbbda8015efdcc2cab46941d1bf94c"
+    } ],
+    "uid" : "9de743f999dc4a2f4c382de20b2c70c2"
+  } ],
+  "name" : "suites"
+}
