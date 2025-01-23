@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "9112bdb9f0ebf206c7badc8586edb567",
+    "name" : "tests.login_page",
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 15
+    }
+  }, {
+    "uid" : "feeeb6df9b6d84a21dfa18855ad9ab30",
+    "name" : "tests.signup_page",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 16
+    }
+  }, {
+    "uid" : "9de743f999dc4a2f4c382de20b2c70c2",
+    "name" : "tests.product_page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

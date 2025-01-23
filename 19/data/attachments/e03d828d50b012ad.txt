@@ -1,0 +1,46 @@
+https://signup.ebay.com/pa/crte?ru= - Access to XMLHttpRequest at 'https://sr-client-cfg.amplitude.com/config?api_key=f93443b04ccea262b9a9db150b066115&config_keys=sessionReplay' from origin 'https://signup.ebay.com' has been blocked by CORS policy: Request header field x-ebay-requested-with is not allowed by Access-Control-Allow-Headers in preflight response. 
+ ------------
+https://sr-client-cfg.amplitude.com/config?api_key=f93443b04ccea262b9a9db150b066115&config_keys=sessionReplay - Failed to load resource: net::ERR_FAILED 
+ ------------
+console-api 0:22 "undetected chromedriver 1337!" 
+ ------------
+https://signup.ebay.com/pa/crte?ru= - [GroupMarkerNotSet(crbug.com/242999)!:A02022009C1F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content. 
+ ------------
+https://signup.ebay.com/pa/crte?ru= - [GroupMarkerNotSet(crbug.com/242999)!:A05022009C1F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content. 
+ ------------
+https://signup.ebay.com/pa/crte?ru= - [GroupMarkerNotSet(crbug.com/242999)!:A080C9059C1F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content. 
+ ------------
+https://signup.ebay.com/pa/crte?ru= - [.WebGL-0x320c036a6a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels 
+ ------------
+https://signup.ebay.com/pa/crte?ru= - [GroupMarkerNotSet(crbug.com/242999)!:A0B0C9059C1F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content. 
+ ------------
+https://signup.ebay.com/pa/crte?ru= - [.WebGL-0x320c036a7100]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat) 
+ ------------
+https://signup.ebay.com/pa/crte?ru= 4:8 "done" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 20:10 "ebay tealium test 1" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 24:10 "ebay tealium test 2" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 26:10 "ebay tealium test 3" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 4:20 "madrona data:" "{\"madrona_placement_id\"  : \"100578\",\"site_id\":\"0\",\"guid\":\"93088d7c1940a0dcb96578fbfffce48f\",\"page_id\"  : \"\",\"operational_id\"  : \"2556586\",\"location_country_id\":\"1\",\"uep\":\"test\",\"fm_segmentation\":\"-1\"}" 
+ ------------
+https://mkttag.ebay.com/tag-manager/v1/tag/madrona_loadscripts.js 12:17 "ebay tealium testvar utag_data = {\"madrona_placement_id\"  : \"100578\",\"site_id\":\"0\",\"guid\":\"93088d7c1940a0dcb96578fbfffce48f\",\"page_id\"  : \"\",\"operational_id\"  : \"2556586\",\"location_country_id\":\"1\",\"uep\":\"test\",\"fm_segmentation\":\"-1\"};" 
+ ------------
+https://signup.ebay.com/pa/crte?ru= - [GroupMarkerNotSet(crbug.com/242999)!:A0E0C9059C1F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content. 
+ ------------
+console-api 0:22 "undetected chromedriver 1337!" 
+ ------------
+https://signup.ebay.com/pa/crte?ru= - Access to XMLHttpRequest at 'https://ct.pinterest.com/v3/?tid=2615534500061&ov=%7B%22page_name%22%3A%22Register%3A%20Create%20a%20personal%20eBay%20account%22%2C%22page_category%22%3A%22%22%7D&pd=%7B%22opt_out_type%22%3A%22%22%2C%22st%22%3A%22%22%2C%22country%22%3A%22%22%2C%22np%22%3A%22tealium%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fsignup.ebay.com%2Fpa%2Fcrte%3Fru%3D%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A1080%2C%22sw%22%3A1920%2C%22mh%22%3A%227d8116bd%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Not%20A(Brand%22%2C%22version%22%3A%228%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22132%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%226.8.0%22%2C%22uaFullVersion%22%3A%22132.0.6834.0%22%2C%22ecm_enabled%22%3Atrue%7D&cb=1737633601568' from origin 'https://signup.ebay.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'. The credentials mode of requests initiated by the XMLHttpRequest is controlled by the withCredentials attribute. 
+ ------------
+https://ct.pinterest.com/v3/?tid=2615534500061&ov=%7B%22page_name%22%3A%22Register%3A%20Create%20a%20personal%20eBay%20account%22%2C%22page_category%22%3A%22%22%7D&pd=%7B%22opt_out_type%22%3A%22%22%2C%22st%22%3A%22%22%2C%22country%22%3A%22%22%2C%22np%22%3A%22tealium%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fsignup.ebay.com%2Fpa%2Fcrte%3Fru%3D%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A1080%2C%22sw%22%3A1920%2C%22mh%22%3A%227d8116bd%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Not%20A(Brand%22%2C%22version%22%3A%228%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22132%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%226.8.0%22%2C%22uaFullVersion%22%3A%22132.0.6834.0%22%2C%22ecm_enabled%22%3Atrue%7D&cb=1737633601568 - Failed to load resource: net::ERR_FAILED 
+ ------------
+https://signup.ebay.com/pa/crte?ru= - Access to XMLHttpRequest at 'https://ct.pinterest.com/v3/?event=pagevisit&ed=%7B%22property%22%3A%222556586%22%2C%22event_id%22%3A%222b30b7277502d1bcfc3e75c20507c20b%22%7D&tid=2615534500061&cb=1737633601729&dep=5%2CEVENT_TAGS_ABSENT&pd=%7B%22opt_out_type%22%3A%22%22%2C%22st%22%3A%22%22%2C%22country%22%3A%22%22%2C%22np%22%3A%22tealium%22%2C%22pin_unauth%22%3A%22dWlkPU9HUTFaVFEwTmprdFpHRTNNQzAwWlRnekxUa3lNRGd0WkRJM016RmtabUUyTm1ObQ%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fsignup.ebay.com%2Fpa%2Fcrte%3Fru%3D%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A1080%2C%22sw%22%3A1920%2C%22mh%22%3A%227d8116bd%22%2C%22is_eu%22%3Afalse%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Not%20A(Brand%22%2C%22version%22%3A%228%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22132%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%226.8.0%22%2C%22uaFullVersion%22%3A%22132.0.6834.0%22%2C%22ecm_enabled%22%3Atrue%7D' from origin 'https://signup.ebay.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'. The credentials mode of requests initiated by the XMLHttpRequest is controlled by the withCredentials attribute. 
+ ------------
+https://ct.pinterest.com/v3/?event=pagevisit&ed=%7B%22property%22%3A%222556586%22%2C%22event_id%22%3A%222b30b7277502d1bcfc3e75c20507c20b%22%7D&tid=2615534500061&cb=1737633601729&dep=5%2CEVENT_TAGS_ABSENT&pd=%7B%22opt_out_type%22%3A%22%22%2C%22st%22%3A%22%22%2C%22country%22%3A%22%22%2C%22np%22%3A%22tealium%22%2C%22pin_unauth%22%3A%22dWlkPU9HUTFaVFEwTmprdFpHRTNNQzAwWlRnekxUa3lNRGd0WkRJM016RmtabUUyTm1ObQ%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fsignup.ebay.com%2Fpa%2Fcrte%3Fru%3D%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A1080%2C%22sw%22%3A1920%2C%22mh%22%3A%227d8116bd%22%2C%22is_eu%22%3Afalse%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Not%20A(Brand%22%2C%22version%22%3A%228%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22132%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%226.8.0%22%2C%22uaFullVersion%22%3A%22132.0.6834.0%22%2C%22ecm_enabled%22%3Atrue%7D - Failed to load resource: net::ERR_FAILED 
+ ------------
+https://ir.ebaystatic.com/rs/c/useronbrdexp/vendors.e39c68659b.js 1:65836 Uncaught TypeError: Network request failed 
+ ------------
+https://ir.ebaystatic.com/rs/c/useronbrdexp/vendors.e39c68659b.js 1:65836 Uncaught TypeError: Network request failed 
+ ------------

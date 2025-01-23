@@ -1,0 +1,157 @@
+{
+  "uid" : "350ab75a8074dfe9",
+  "name" : "test_search_product[xdbvvwoqybujzpgwrzgmdeidpbfrjwehcqxxmgmy-element_to_present1]",
+  "fullName" : "tests.product_page.test_product_page.TestSignupPage#test_search_product",
+  "historyId" : "922f7d4c97e4f61c229a5f83f84453c8",
+  "time" : {
+    "start" : 1737633551384,
+    "stop" : 1737633567412,
+    "duration" : 16028
+  },
+  "description" : "Test the search functionality on the product page. Asserts that the specified element is present on the page after performing the search",
+  "descriptionHtml" : "<p>Test the search functionality on the product page. Asserts that the specified element is present on the page after performing the search</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "log_report",
+    "time" : {
+      "start" : 1737633551384,
+      "stop" : 1737633551384,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1737633406539,
+      "stop" : 1737633406539,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1737633536884,
+      "stop" : 1737633537596,
+      "duration" : 712
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "page",
+    "time" : {
+      "start" : 1737633549895,
+      "stop" : 1737633551384,
+      "duration" : 1489
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "log_report::0",
+    "time" : {
+      "start" : 1737633567413,
+      "stop" : 1737633567415,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1737633597374,
+      "stop" : 1737633597539,
+      "duration" : 165
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.product_page"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSignupPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1676-934"
+  }, {
+    "name" : "thread",
+    "value" : "2652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.product_page.test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "element_to_present",
+    "value" : "('xpath', \"//h3[normalize-space()='No exact matches found']\")"
+  }, {
+    "name" : "product_name",
+    "value" : "'xdbvvwoqybujzpgwrzgmdeidpbfrjwehcqxxmgmy'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "350ab75a8074dfe9.json",
+  "parameterValues" : [ "('xpath', \"//h3[normalize-space()='No exact matches found']\")", "'xdbvvwoqybujzpgwrzgmdeidpbfrjwehcqxxmgmy'" ]
+}

@@ -1,0 +1,213 @@
+{
+  "uid" : "e0b2fc923e822a01",
+  "name" : "test_validate_elements_login_page[locator2]",
+  "fullName" : "tests.login_page.test_login_page.TestLoginPage#test_validate_elements_login_page",
+  "historyId" : "fc984da8f5a65c8326a416c3b84802c7",
+  "time" : {
+    "start" : 1737633475534,
+    "stop" : 1737633482108,
+    "duration" : 6574
+  },
+  "description" : "This test validates the presence of elements on the login page.",
+  "descriptionHtml" : "<p>This test validates the presence of elements on the login page.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: signin-error-msg is not found\nassert False\n +  where False = is_element_present(*('id', 'signin-error-msg'), timeout=5)\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7f74c6c48e90>.is_element_present",
+  "statusTrace" : "self = <tests.login_page.test_login_page.TestLoginPage object at 0x7f74c6df18e0>\npage = <src.pages.login_page.LoginPage object at 0x7f74c6c48e90>\nlocator = ('id', 'signin-error-msg')\n\n    @allure.severity(allure.severity_level.NORMAL)\n    @pytest.mark.parametrize('locator', [getattr(LoginPageLocators, attr) for attr in dir(LoginPageLocators) if not attr.startswith(\"__\")])\n    def test_validate_elements_login_page(self, page, locator):\n        allure.dynamic.description(\"This test validates the presence of elements on the login page.\")\n>       assert page.is_element_present(*locator, timeout=5), f'{locator[1]} is not found'\nE       AssertionError: signin-error-msg is not found\nE       assert False\nE        +  where False = is_element_present(*('id', 'signin-error-msg'), timeout=5)\nE        +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7f74c6c48e90>.is_element_present\n\ntests/login_page/test_login_page.py:20: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "log_report",
+    "time" : {
+      "start" : 1737633475533,
+      "stop" : 1737633475533,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1737633406539,
+      "stop" : 1737633406539,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1737633406539,
+      "stop" : 1737633465827,
+      "duration" : 59288
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "page",
+    "time" : {
+      "start" : 1737633475513,
+      "stop" : 1737633475533,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "log_report::0",
+    "time" : {
+      "start" : 1737633482146,
+      "stop" : 1737633482269,
+      "duration" : 123
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2f4139bd08261a1c",
+      "name" : "test_validate_elements_login_page_locator2__screenshot.png",
+      "source" : "2f4139bd08261a1c.png",
+      "type" : "image/png",
+      "size" : 59093
+    }, {
+      "uid" : "42ce43086372a435",
+      "name" : "test_validate_elements_login_page_locator2__Console",
+      "source" : "42ce43086372a435.txt",
+      "type" : "text/plain",
+      "size" : 2308
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  }, {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1737633536719,
+      "stop" : 1737633536882,
+      "duration" : 163
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.login_page"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1676-934"
+  }, {
+    "name" : "thread",
+    "value" : "2652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.login_page.test_login_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "locator",
+    "value" : "('id', 'signin-error-msg')"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "e2ac0df3bbf6e668",
+        "reportUrl" : "https://julianemran.github.io/ebay-testing/18//#testresult/e2ac0df3bbf6e668",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: signin-error-msg is not found\nassert False\n +  where False = is_element_present(*('id', 'signin-error-msg'), timeout=5)\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7f0928790ec0>.is_element_present",
+        "time" : {
+          "start" : 1737633236405,
+          "stop" : 1737633242977,
+          "duration" : 6572
+        }
+      }, {
+        "uid" : "e7cef543003b3e26",
+        "reportUrl" : "https://julianemran.github.io/ebay-testing/17//#testresult/e7cef543003b3e26",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: signin-error-msg is not found\nassert False\n +  where False = is_element_present(*('id', 'signin-error-msg'), timeout=5)\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7f8cbebd2150>.is_element_present",
+        "time" : {
+          "start" : 1737554854387,
+          "stop" : 1737554860995,
+          "duration" : 6608
+        }
+      }, {
+        "uid" : "d19be8ea1b3ceaab",
+        "reportUrl" : "https://julianemran.github.io/ebay-testing/16//#testresult/d19be8ea1b3ceaab",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: signin-error-msg is not found\nassert False\n +  where False = is_element_present(*('id', 'signin-error-msg'), timeout=5)\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7fab9508d040>.is_element_present",
+        "time" : {
+          "start" : 1737554198613,
+          "stop" : 1737554205178,
+          "duration" : 6565
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e0b2fc923e822a01.json",
+  "parameterValues" : [ "('id', 'signin-error-msg')" ]
+}

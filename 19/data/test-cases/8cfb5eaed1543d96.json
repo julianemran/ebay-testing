@@ -1,0 +1,195 @@
+{
+  "uid" : "8cfb5eaed1543d96",
+  "name" : "test_search_product[iphone 16 case-element_to_present0]",
+  "fullName" : "tests.product_page.test_product_page.TestSignupPage#test_search_product",
+  "historyId" : "e77aca1309d53f8683a22e0a3afd7492",
+  "time" : {
+    "start" : 1737633539528,
+    "stop" : 1737633549884,
+    "duration" : 10356
+  },
+  "description" : "Test the search functionality on the product page. Asserts that the specified element is present on the page after performing the search",
+  "descriptionHtml" : "<p>Test the search functionality on the product page. Asserts that the specified element is present on the page after performing the search</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1737633406539,
+      "stop" : 1737633406539,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1737633536884,
+      "stop" : 1737633537596,
+      "duration" : 712
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "log_report",
+    "time" : {
+      "start" : 1737633539527,
+      "stop" : 1737633539527,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "page",
+    "time" : {
+      "start" : 1737633537597,
+      "stop" : 1737633539527,
+      "duration" : 1930
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1737633597374,
+      "stop" : 1737633597539,
+      "duration" : 165
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "log_report::0",
+    "time" : {
+      "start" : 1737633549885,
+      "stop" : 1737633549893,
+      "duration" : 8
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.product_page"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSignupPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1676-934"
+  }, {
+    "name" : "thread",
+    "value" : "2652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.product_page.test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "element_to_present",
+    "value" : "('xpath', \"//ul[@class='srp-results srp-list clearfix']\")"
+  }, {
+    "name" : "product_name",
+    "value" : "'iphone 16 case'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "bf07a451a4def41a",
+        "reportUrl" : "https://julianemran.github.io/ebay-testing/18//#testresult/bf07a451a4def41a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737633299922,
+          "stop" : 1737633310268,
+          "duration" : 10346
+        }
+      }, {
+        "uid" : "dc9eedd9d3263627",
+        "reportUrl" : "https://julianemran.github.io/ebay-testing/17//#testresult/dc9eedd9d3263627",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737554917241,
+          "stop" : 1737554927066,
+          "duration" : 9825
+        }
+      }, {
+        "uid" : "6652e092881e0ba5",
+        "reportUrl" : "https://julianemran.github.io/ebay-testing/16//#testresult/6652e092881e0ba5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1737554261884,
+          "stop" : 1737554271804,
+          "duration" : 9920
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8cfb5eaed1543d96.json",
+  "parameterValues" : [ "('xpath', \"//ul[@class='srp-results srp-list clearfix']\")", "'iphone 16 case'" ]
+}

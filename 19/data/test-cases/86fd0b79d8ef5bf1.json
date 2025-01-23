@@ -1,0 +1,207 @@
+{
+  "uid" : "86fd0b79d8ef5bf1",
+  "name" : "test_validate_elements_login_page[locator5]",
+  "fullName" : "tests.login_page.test_login_page.TestLoginPage#test_validate_elements_login_page",
+  "historyId" : "de53cb0d126c7730ca9bf3f40fb22bbc",
+  "time" : {
+    "start" : 1737633482304,
+    "stop" : 1737633488862,
+    "duration" : 6558
+  },
+  "description" : "This test validates the presence of elements on the login page.",
+  "descriptionHtml" : "<p>This test validates the presence of elements on the login page.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: //a[normalize-space()='Sign in'] is not found\nassert False\n +  where False = is_element_present(*('xpath', \"//a[normalize-space()='Sign in']\"), timeout=5)\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7f74c6c546b0>.is_element_present",
+  "statusTrace" : "self = <tests.login_page.test_login_page.TestLoginPage object at 0x7f74c6df1a90>\npage = <src.pages.login_page.LoginPage object at 0x7f74c6c546b0>\nlocator = ('xpath', \"//a[normalize-space()='Sign in']\")\n\n    @allure.severity(allure.severity_level.NORMAL)\n    @pytest.mark.parametrize('locator', [getattr(LoginPageLocators, attr) for attr in dir(LoginPageLocators) if not attr.startswith(\"__\")])\n    def test_validate_elements_login_page(self, page, locator):\n        allure.dynamic.description(\"This test validates the presence of elements on the login page.\")\n>       assert page.is_element_present(*locator, timeout=5), f'{locator[1]} is not found'\nE       AssertionError: //a[normalize-space()='Sign in'] is not found\nE       assert False\nE        +  where False = is_element_present(*('xpath', \"//a[normalize-space()='Sign in']\"), timeout=5)\nE        +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7f74c6c546b0>.is_element_present\n\ntests/login_page/test_login_page.py:20: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "log_report",
+    "time" : {
+      "start" : 1737633482303,
+      "stop" : 1737633482303,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1737633406539,
+      "stop" : 1737633406539,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1737633406539,
+      "stop" : 1737633465827,
+      "duration" : 59288
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "page",
+    "time" : {
+      "start" : 1737633482300,
+      "stop" : 1737633482303,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "log_report::0",
+    "time" : {
+      "start" : 1737633488865,
+      "stop" : 1737633488969,
+      "duration" : 104
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1a5ddc3638a88398",
+      "name" : "test_validate_elements_login_page_locator5__screenshot.png",
+      "source" : "1a5ddc3638a88398.png",
+      "type" : "image/png",
+      "size" : 59093
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  }, {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1737633536719,
+      "stop" : 1737633536882,
+      "duration" : 163
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.login_page"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1676-934"
+  }, {
+    "name" : "thread",
+    "value" : "2652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.login_page.test_login_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "locator",
+    "value" : "('xpath', \"//a[normalize-space()='Sign in']\")"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "c72fd0f0cfabdd20",
+        "reportUrl" : "https://julianemran.github.io/ebay-testing/18//#testresult/c72fd0f0cfabdd20",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: //a[normalize-space()='Sign in'] is not found\nassert False\n +  where False = is_element_present(*('xpath', \"//a[normalize-space()='Sign in']\"), timeout=5)\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7f0929a03890>.is_element_present",
+        "time" : {
+          "start" : 1737633243241,
+          "stop" : 1737633249842,
+          "duration" : 6601
+        }
+      }, {
+        "uid" : "bffcff6145377dd6",
+        "reportUrl" : "https://julianemran.github.io/ebay-testing/17//#testresult/bffcff6145377dd6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: //a[normalize-space()='Sign in'] is not found\nassert False\n +  where False = is_element_present(*('xpath', \"//a[normalize-space()='Sign in']\"), timeout=5)\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7f8cbebdc830>.is_element_present",
+        "time" : {
+          "start" : 1737554861193,
+          "stop" : 1737554867796,
+          "duration" : 6603
+        }
+      }, {
+        "uid" : "7bbff0396ced0559",
+        "reportUrl" : "https://julianemran.github.io/ebay-testing/16//#testresult/7bbff0396ced0559",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: //a[normalize-space()='Sign in'] is not found\nassert False\n +  where False = is_element_present(*('xpath', \"//a[normalize-space()='Sign in']\"), timeout=5)\n +    where is_element_present = <src.pages.login_page.LoginPage object at 0x7fab950984d0>.is_element_present",
+        "time" : {
+          "start" : 1737554205369,
+          "stop" : 1737554211945,
+          "duration" : 6576
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "86fd0b79d8ef5bf1.json",
+  "parameterValues" : [ "('xpath', \"//a[normalize-space()='Sign in']\")" ]
+}
